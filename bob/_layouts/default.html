@@ -1,0 +1,23 @@
+{% include head.html %}	
+	<body>
+	{% include nav.html %}	
+	<!-- body -->
+	<div id="container">	
+	<div class="units-row units-padding end">
+	<!-- left col -->
+    	<div class="unit-60">
+        {{ content }}
+    	</div>   
+	<!-- righty col -->
+		<div class="unit-40 beige">
+            <!-- info -->
+            <div class="units-row units-split end">
+    		<div class="unit-100">
+					{% include basic_info.html %}
+            </div>
+            </div>
+		</div>
+        	<!-- footer -->
+	<div class="units-row units-split end">
+	<div class="unit-100">
+	{% include footer.html %}  
