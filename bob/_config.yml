@@ -23,8 +23,12 @@ github_username:  bobdry
 
 # Build settings
 markdown: kramdown
+collections:
+  five:
+    output: true
+    permalink: /five/:path/
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
