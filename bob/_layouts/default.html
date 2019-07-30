@@ -2,22 +2,18 @@
 	<body>
 	{% include nav.html %}	
 	<!-- body -->
-	<div id="container">	
-	<div class="units-row units-padding end">
+	<div class="container home">	
+	<div class="row">
 	<!-- left col -->
-    	<div class="unit-60">
+    	<div class="col col-md-8">
         {{ content }}
     	</div>   
-	<!-- righty col -->
-		<div class="unit-40 beige">
+	<!-- right col -->
+		<div class="col-md-4">
             <!-- info -->
-            <div class="units-row units-split end">
-    		<div class="unit-100">
 					{% include basic_info.html %}
-            </div>
-            </div>
-		</div>
+        </div>
+    </div>
         	<!-- footer -->
-	<div class="units-row units-split end">
-	<div class="unit-100">
+    </div>
 	{% include footer.html %}  

@@ -1,5 +1,1 @@
-/* main.css*/
-
-p {
-    color: #333;
-}
+body{background-image:linear-gradient(to bottom right,#d6eaf5,#f5f9fc 60em)}div.header,div.home,div.nav-blue,div.portfolio,footer{max-width:80rem;margin:0 auto}div.header-wrapper{background:#fff5e8 url(http://localhost:4000/images/bd-bg.png) no-repeat top center;background-size:1320px 215px}div.header-wrapper div.header a img{margin:1rem}div.nav-blue>nav{padding:3.5rem 0 .5rem 0;text-align:right}div.nav-blue>nav>ul{background:#035280;list-style:none;padding:0 1.5rem 0 0}div.nav-blue>nav>ul>li{display:inline-block;padding:.5rem 1.5rem;border-right:1px #035280 solid;background:#186fa2}
