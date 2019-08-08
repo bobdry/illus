@@ -1,18 +1,21 @@
 ---
 layout: page
-title: Contact
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<div class="chat">
+<h2>Let&rsquo;s chat</h2>
+<form action="https://formspree.io/bobbyddry@outlook.com" method="POST">
+    <p>Name</p>
+    <input type="text" name="name" placeholder="" class="mini_chat">
+    <p>Email</p>
+    <input type="email" name="email" placeholder="" class="mini_chat">
+    <p>Phone number</p>
+    <input type="tel" name="tel" title="Phone Number"/>
+    <p>Important message</p>
+    <textarea name="message" rows="10"></textarea>
+    <p><em>Anything else?</em></p>
+    <input type="text" name="extra" placeholder="" class="max_chat">
+    <input type="submit" value="Send" class="sender">
+</form>
+</div>

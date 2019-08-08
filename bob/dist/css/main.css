@@ -63,7 +63,7 @@ div.nav-blue > nav > ul {
 div.nav-blue > nav > ul > li {
     display: inline-block;  
     padding: 0.5rem 1.0rem;
-    border-right: 1px #035280 solid;
+    border-right: 0.125rem #035280 solid;
     background: #186fa2;
 }
 
@@ -76,6 +76,12 @@ div.nav-blue > nav > ul > li {
     }
     div.nav-blue > nav > ul > li {  
         padding: 0.5rem 1.5rem;
+    }
+}
+
+@media (min-width:1200px) {
+    div.nav-blue > nav > ul > li {  
+        padding: 0.5rem 2.5rem;
     }
 }
 
@@ -94,7 +100,7 @@ div.nav-blue > nav > ul > li > a:hover{
 
 div.basic-info{
     background: #fff5e8;
-    border: 1px dashed #413121;;
+    border: 1px dashed #413121;
     padding: 2.0rem;
     margin: 2.0rem 0;
 }
@@ -135,8 +141,99 @@ div.home-thumbs a:hover img {
     opacity: 0.5;
 }
 
+/************* contact ***************/
+
+div.chat {
+    margin: 2.0rem;
+    font-size: 125%;
+}
+
+div.chat p {
+    margin: 1.0rem 0 0.25rem 0;
+}
+
+div.chat input, div.chat textarea {
+    min-width: 97.5%;
+    max-width: 97.5%;
+}
+
+div.chat input.sender {
+    display: block;
+    padding: 1.0rem 0;
+    margin: 2.0rem 0 0 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    border: 0;
+    color: #fff;
+    background: #08466a;
+    transition: 0.2s;
+    min-width: 50%;
+}
+
+div.chat input.sender:hover {
+    background: #2bc6ff;
+    color: #08466a;
+}
+
+@media (min-width:768px) {
+    div.chat input, div.chat textarea {
+        min-width: 80%;
+    }
+    div.chat input.sender {
+        min-width: 30%;
+    }
+}
+
 /************* footer ***************/
 
 footer p {
     padding: 1.0rem;
+}
+
+/************* portfolio ***************/
+
+div.post p {
+    width:auto;
+    display: block;
+    margin: 0;
+}
+
+div.post article.post-content {
+    margin: 2.0rem 0;
+}
+
+div.post div.article-desc{
+    padding: 1.5rem;
+    margin: 0;
+}
+
+div.post div.article-desc p:first-child{
+    border-bottom: 1px dashed #413121;
+    font-weight: 600;
+    font-size: 112%;
+    padding: 0 0 0.5rem 0;
+    margin: 0 0 0.5rem 0;
+}
+
+div.post div.pagination{
+    background: #fff5e8;
+    border-radius: 0;
+    border-top: 1px dashed #413121;
+    border-bottom: 1px dashed #413121;
+    padding: 1.0rem 2.0rem;
+    margin: 2.0rem 0;
+    flex-direction: column;
+}
+
+div.post div.pagination p:first-child {
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+    font-size: 112%;
+}
+
+@media (min-width:768px) {
+    div.post div.pagination{
+        border: 1px dashed #413121;
+    }
 }

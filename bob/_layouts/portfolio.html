@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-	<html>
-	{% include head.html %}	
-	<body>
-	{% include header.html %}	
-	<!-- body -->
-	<div id="container">	
-	<!-- row 1 -->
-	<div class="units-row units-padding end">
-    <div class="unit-100" style="padding-top: 0;">
+---
+layout: default-no-sidebar
+---
+<div class="post">
+
+  <article class="post-content">
     {{ content }}
-    </div> 
-	</div> 	     
-	</div>
-	</body>	
-	</html>
+  </article>
+    <div class="row">
+    <div class="col-md-6 article-desc">
+        <p>{{ page.title }}</p>
+        <p>{{ page.description }}</p>
+    </div>
+    <div class="col-md-6 pagination">
+        <p><span>Previous</span> Page: 1 of 2 <span>Next</span></p>
+        <p>Sets: {{ page.sets }}</p>
+    </div>
+    </div>
+
+</div>
