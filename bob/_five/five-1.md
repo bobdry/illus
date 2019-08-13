@@ -2,7 +2,6 @@
 portfolio: five
 title:  "Five Steps Away | Issue #1"
 description: "24 pages of mountain weirdness, issue #1 of Five Steps Away is the start of an unusual comic tale. It is Fall along the Blue Ridge Parkway. Sheila and her boyfriend Paul are out for a peaceful drive when suddenly honk, crush, thud."
-sets: five
 layout: portfolio
 ---
 <div class="row">

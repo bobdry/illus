@@ -26,7 +26,7 @@ markdown: kramdown
 collections:
   five:
     output: true
-    permalink: /five/:path/
+    permalink: /:collection/:name
 plugins:
     - jekyll-feed
 

@@ -12,8 +12,15 @@ layout: default-no-sidebar
         <p>{{ page.description }}</p>
     </div>
     <div class="col-md-6 pagination">
-        <p><span>Previous</span> Page: 1 of 2 <span>Next</span></p>
-        <p>Sets: {{ page.sets }}</p>
+        <p>
+        <span id="bdPrev"></span>
+        Page: 
+        <span id="bdCurrPage"></span>
+        of 
+        <span id="bdTotPage"></span>
+        <span id="bdNext"></span>
+        </p>
+        <p>Sets: <a href="/five/five-1/">Five Steps Away</a></p>
     </div>
     </div>
 
