@@ -24,7 +24,22 @@ github_username:  bobdry
 # Build settings
 markdown: kramdown
 collections:
+  campbell:
+    output: true
+    permalink: /:collection/:name
   five:
+    output: true
+    permalink: /:collection/:name
+  izaak:
+    output: true
+    permalink: /:collection/:name
+  kids:
+    output: true
+    permalink: /:collection/:name
+  nature:
+    output: true
+    permalink: /:collection/:name
+  guada:
     output: true
     permalink: /:collection/:name
 plugins:

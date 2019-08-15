@@ -37,5 +37,22 @@ var paginaTor = function(set,curr,tots) {
 }
 
 if (bodySet != '') {
+    if (bodySet == 'five') {
     paginaTor(bodySet,currPageCount,1);
+    }
+    else if (bodySet == 'campbell') {
+    paginaTor(bodySet,currPageCount,4);
+    }
+    else if (bodySet == 'izaak') {
+    paginaTor(bodySet,currPageCount,9);
+    }
+    else if (bodySet == 'kids') {
+    paginaTor(bodySet,currPageCount,2);
+    }
+    else if (bodySet == 'nature') {
+    paginaTor(bodySet,currPageCount,3);
+    }
+    else if (bodySet == 'guada') {
+    paginaTor(bodySet,currPageCount,2);
+    }
 }

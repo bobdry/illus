@@ -233,7 +233,11 @@ div.post div.pagination{
 div.post div.pagination p:first-child {
     margin: 0 0 0.5rem 0;
     font-weight: 600;
-    font-size: 112%;
+    font-size: 120%;
+}
+
+div.post div.pagination p:last-child {
+    font-size: 90%;
 }
 
 @media (min-width:768px) {
