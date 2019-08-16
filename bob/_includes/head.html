@@ -4,11 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Bob Dry Illustration {% if page.title %}&mdash; {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>Bob Dry Illustration {% if page.title %}- {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="shortcut icon" href="dp_d.ico">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta name="keywords" content="illustration, bob dry" />
+    <!-- icons -->
+    <link rel="icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
+    <link rel="icon" href="{{ "/images/android-icon-128x128.png" | prepend: site.baseurl }}" sizes="128x128" />
+    <link rel="icon" href="{{ "/images/android-icon-192x192.png" | prepend: site.baseurl }}" />
+    <link rel="apple-touch-icon" href="{{ "/images/apple-icon-76x76.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon" href="{{ "/images/apple-icon-152x152.png" | prepend: site.baseurl }}" sizes="152x152">
+    <link rel="apple-touch-icon" href="{{ "/images/apple-icon-167x167.png" | prepend: site.baseurl }}" sizes="167x167">
+    <link rel="apple-touch-icon" href="{{ "/images/apple-icon-180x180.png" | prepend: site.baseurl }}" sizes="180x180">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Enriqueta:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ "/dist/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/dist/main.min.css" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/dist/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/dist/main.min.css" | prepend: site.baseurl }}">
 </head>

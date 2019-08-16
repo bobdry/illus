@@ -6,9 +6,9 @@ layout: portfolio
 ---
 <div class="row">
     <div class="col-md-6">
-    <img src="../../images/nature3.jpg" class="img-fluid"/>
+    <img src="../images/nature3.jpg" class="img-fluid"/>
     </div>
     <div class="col-md-6">
-    <img src="../../images/nature4.jpg" class="img-fluid"/>
+    <img src="../images/nature4.jpg" class="img-fluid"/>
     </div>
 </div>

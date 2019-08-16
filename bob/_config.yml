@@ -16,8 +16,12 @@
 title: bobdry.com
 email: bobdry@gmail.com
 description: portfolio website for my nice drawings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /_site
+url: "http://bobdry.com.s3-website-us-east-1.amazonaws.com"
+
+# http://127.0.0.1:4000  ""
+# http://bobdry.com.s3-website-us-east-1.amazonaws.com /_site
+
 twitter_username: elbobmasgrande
 github_username:  bobdry
 

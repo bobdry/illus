@@ -6,6 +6,6 @@ layout: portfolio
 ---
 <div class="row">
     <div class="col-md-12">
-    <img src="../../images/campbell3.jpg" class="img-fluid"/>
+    <img src="../images/campbell3.jpg" class="img-fluid"/>
     </div>
 </div>

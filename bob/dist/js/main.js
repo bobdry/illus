@@ -13,17 +13,20 @@ currPageCount = currPageCount[currPageCount.length -1];
 
 var paginaTor = function(set,curr,tots) {
     //previous page
-    var baseUrl = "<a href=\"/"
+    var baseUrl = "<a href=\"/_site/"
     var urlSlash = "/"
     var urlHyp = "-"
     var currPlus = parseInt(curr) + 1;
     var currMinus = parseInt(curr) - 1;
-    var prevEnd = "index.html\">&laquo; Previous</a>"
-    var nextEnd = "index.html\">Next &raquo;</a>"
-    var prevInner = baseUrl.concat(set,urlSlash,set,urlHyp,currMinus,urlSlash,prevEnd)
-    var nextInner = baseUrl.concat(set,urlSlash,set,urlHyp,currPlus,urlSlash,nextEnd)
+    var prevEnd = ".html\">&laquo; Previous</a>"
+    var nextEnd = ".html\">Next &raquo;</a>"
+//for base Jekyll
+//    var prevInner = baseUrl.concat(set,urlSlash,set,urlHyp,currMinus,urlSlash,prevEnd)
+//    var nextInner = baseUrl.concat(set,urlSlash,set,urlHyp,currPlus,urlSlash,nextEnd)
+//for AWS
+    var prevInner = baseUrl.concat(set,urlSlash,set,urlHyp,currMinus,prevEnd)
+    var nextInner = baseUrl.concat(set,urlSlash,set,urlHyp,currPlus,nextEnd)
     if (curr > 1) {
-    var nextLink = "<a href=/"/">set</a>"
     document.getElementById('bdPrev').innerHTML = prevInner;
     }
     //curr page number
