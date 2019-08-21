@@ -13,7 +13,7 @@ currPageCount = currPageCount[currPageCount.length -1];
 
 var paginaTor = function(set,curr,tots) {
     //previous page
-    var baseUrl = "<a href=\"/_site/"
+    var baseUrl = "<a href=\"/"
     var urlSlash = "/"
     var urlHyp = "-"
     var currPlus = parseInt(curr) + 1;
