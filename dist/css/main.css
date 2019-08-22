@@ -203,6 +203,16 @@ div.post p {
     margin: 0;
 }
 
+div.post div.row > div.col-md-6:first-child {
+    margin-bottom: 2.0rem;
+}
+
+@media (min-width:768px) {
+    div.post div.row > div.col-md-6:first-child {
+        margin-bottom: 0;
+    }
+}
+
 div.post article.post-content {
     margin: 2.0rem 0;
 }
