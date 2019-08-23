@@ -1,6 +1,6 @@
 ---
-
 layout: default
+set: home
 ---
 
 <div class="row">

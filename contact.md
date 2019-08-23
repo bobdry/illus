@@ -1,5 +1,6 @@
 ---
 layout: page
+set: contact
 permalink: /contact/
 ---
 
