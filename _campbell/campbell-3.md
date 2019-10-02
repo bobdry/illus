@@ -1,11 +1,14 @@
 ---
 portfolio: campbell
 title:  "Campbell Magazine"
-description: "Spot illustrations for the Campbell Magazine Summer 2015 cover story, Legendary | Campbell Basketball School -- Michael Jordan & Fred Whitfield and Bones McKinney & Fred McCall"
+description: "Campbell Magazine Summer 2015 cover story, Legendary | Campbell Basketball School -- Spot illustrations of Michael Jordan & Fred Whitfield and the hot box Carter Gym"
 layout: portfolio
 ---
 <div class="row">
-    <div class="col-md-12">
-    <img src="../images/campbell2.jpg" class="img-fluid"/>
+    <div class="col-md-6">
+    <img src="../images/campbell5.jpg" class="img-fluid"/>
+    </div>
+    <div class="col-md-6">
+    <img src="../images/campbell6.jpg" class="img-fluid"/>
     </div>
 </div>

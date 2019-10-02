@@ -44,7 +44,7 @@ if (bodySet != '') {
     paginaTor(bodySet,currPageCount,1);
     }
     else if (bodySet == 'campbell') {
-    paginaTor(bodySet,currPageCount,4);
+    paginaTor(bodySet,currPageCount,3);
     }
     else if (bodySet == 'izaak') {
     paginaTor(bodySet,currPageCount,9);
