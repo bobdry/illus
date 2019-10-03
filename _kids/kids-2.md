@@ -1,7 +1,7 @@
 ---
 portfolio: kids
 title:  "Kids"
-description: "A UFO is Crashing in the Backyard & Aquarium Dreams"
+description: "UFO Crashing in the Backyard & Aquarium Dreams"
 layout: portfolio
 ---
 <div class="row">
