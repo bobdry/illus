@@ -40,7 +40,7 @@ var paginaTor = function(set,curr,tots) {
 }
 
 if (bodySet != '') {
-    if (bodySet == 'five') {
+    if (bodySet == 'hatch') {
     paginaTor(bodySet,currPageCount,1);
     }
     else if (bodySet == 'campbell') {
