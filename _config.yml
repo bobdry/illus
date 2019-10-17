@@ -12,21 +12,21 @@ markdown: kramdown
 collections:
   campbell:
     output: true
-    permalink: /:collection/:name
+    permalink: :collection/:name
   hatch:
     output: true
-    permalink: /:collection/:name
+    permalink: :collection/:name
   izaak:
     output: true
-    permalink: /:collection/:name
+    permalink: :collection/:name
   kids:
     output: true
-    permalink: /:collection/:name
+    permalink: :collection/:name
   nature:
     output: true
-    permalink: /:collection/:name
+    permalink: :collection/:name
   guada:
     output: true
-    permalink: /:collection/:name
+    permalink: :collection/:name
 plugins:
     - jekyll-feed
