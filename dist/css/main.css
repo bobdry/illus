@@ -9,7 +9,7 @@ body {
 
 /************* header ***************/
 div.header,div.nav-blue,div.home,div.portfolio,footer {
-    max-width: 80.0rem;
+    max-width: 81.0rem;
     margin: 0 auto;
 }
 
@@ -101,7 +101,7 @@ div.nav-blue > nav > ul > li > a:hover{
 div.basic-info{
     background: #fff5e8;
     border: 1px dashed #413121;
-    padding: 2.0rem;
+    padding: 2.125rem;
     margin: 2.0rem 0;
 }
 
