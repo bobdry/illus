@@ -103,6 +103,7 @@ div.basic-info{
     border: 1px dashed #413121;
     padding: 2.125rem;
     margin: 2.0rem 0;
+    line-height: 1.625rem;
 }
 
 div.basic-info div.mug{
