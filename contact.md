@@ -13,7 +13,7 @@ permalink: /contact/
     <input type="email" name="email" placeholder="" class="mini_chat">
     <p>Phone number</p>
     <input type="tel" name="tel" title="Phone Number"/>
-    <p>Important message</p>
+    <p>Message</p>
     <textarea name="message" rows="10"></textarea>
     <p><em>Anything else?</em></p>
     <input type="text" name="extra" placeholder="" class="max_chat">
