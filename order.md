@@ -328,7 +328,7 @@ permalink: /order/
                 </div>
             </fieldset>
     
-    <p class="help-block"><em>Please allow one to two weeks for comics to arrive. Payment will be collected once order has been shipped. Each issue costs $3.99 with a limit of five issues per customer order. Additional shipping and handling charges may be applied to your order. Thanks for buying Hatch Effect #1!</em></p>
+    <p class="help-block"><em>Please allow one to two weeks for comics to arrive. Payment will be collected once order has been shipped. Each issue costs <strong>$3.99</strong> with a limit of five issues per customer order. A charge of <strong>$1.99</strong> will be applied to all orders for shipping and handling. Additional shipping and handling charges may be applied to orders shipped outside of the U.S. <strong>Thanks for buying Hatch Effect #1!</strong></em></p>
     <input type="submit" value="Place Order" class="sender">
 </form>
 </div>
