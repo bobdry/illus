@@ -147,7 +147,7 @@ div.basic-info > a > span {
 }
 
 img.cloniger {
-    margin: 0 0 0.5rem 0;
+    margin: 2.5rem 0 0.25rem 0;
 }
 
 /************* home content ***************/
@@ -318,4 +318,43 @@ select.hatch-country {
     color: #413121;
     font-size: 1.0rem;
     padding: 0.25rem 0.125rem;
+}
+
+/***** anim *****/
+
+div.mug-anim {
+    position: absolute;
+    margin: 4.875rem 0 0 1.1875rem;
+    opacity: 0;
+    transition: .3s;
+}
+
+div.mug-anim > img {
+    max-width: 5.5rem;
+}
+
+div.about_image {
+    position: relative;
+}
+
+div.cloniger-anim {
+    position: absolute;
+    margin-top: -0.75rem;
+    margin-left: -8%;
+    background: #fff5e8;
+    opacity: 0;
+    transition: .3s;
+}
+
+div.cloniger-anim > img {
+    max-width: 108%;
+}
+
+@media (min-width:1140px) {
+    div.mug:hover div.mug-anim {
+        opacity: 1;    
+    }
+    div.about_image:hover div.cloniger-anim {
+        opacity: 1;    
+    }
 }
