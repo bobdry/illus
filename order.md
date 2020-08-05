@@ -19,17 +19,17 @@ permalink: /order/
     <div class="row">
         <div class="col-md-5">
             <p>Name</p>
-            <input type="text" name="name" placeholder="" class="mini_chat">
+            <input type="text" name="name" placeholder="" class="mini_chat" required>
         </div>
     </div>
     <div class="row">
         <div class="col-md-5">
             <p>Email</p>
-            <input type="email" name="email" placeholder="" class="mini_chat">
+            <input type="email" name="email" placeholder="" class="mini_chat" required>
         </div>
         <div class="col-md-5">
             <p>Phone Number</p>
-            <input type="tel" name="tel" title="Phone Number"/>
+            <input type="tel" name="tel" title="Phone Number" required>
         </div>
     </div>
 
@@ -42,7 +42,7 @@ permalink: /order/
                 <div class="control-group">
                     <label class="control-label">Address Line 1</label>
                     <div class="controls">
-                        <input id="address-line1" name="address-line1" type="text" placeholder="" class="input-xlarge">
+                        <input id="address-line1" name="address-line1" type="text" placeholder="" class="input-xlarge"  required>
                         <p class="help-block">Street address, P.O. box, company name, c/o</p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ permalink: /order/
                 <div class="control-group">
                     <label class="control-label">City / Town</label>
                     <div class="controls">
-                        <input id="city" name="city" type="text" placeholder="" class="input-xlarge">
+                        <input id="city" name="city" type="text" placeholder="" class="input-xlarge" required>
                         <p class="help-block"></p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ permalink: /order/
                 <div class="control-group">
                     <label class="control-label">State / Province / Region</label>
                     <div class="controls">
-                        <input id="region" name="region" type="text" placeholder="" class="input-xlarge">
+                        <input id="region" name="region" type="text" placeholder="" class="input-xlarge" required>
                         <p class="help-block"></p>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ permalink: /order/
                 <div class="control-group">
                     <label class="control-label">Zip / Postal Code</label>
                     <div class="controls">
-                        <input id="postal-code" name="postal-code" type="text" placeholder="" class="input-xlarge">
+                        <input id="postal-code" name="postal-code" type="text" placeholder="" class="input-xlarge" required>
                         <p class="help-block"></p>
                     </div>
                 </div>
