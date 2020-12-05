@@ -41,7 +41,7 @@ var paginaTor = function(set,curr,tots) {
 
 if (bodySet != '') {
     if (bodySet == 'hatch') {
-    paginaTor(bodySet,currPageCount,1);
+    paginaTor(bodySet,currPageCount,2);
     }
     else if (bodySet == 'campbell') {
     paginaTor(bodySet,currPageCount,3);
