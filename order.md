@@ -8,8 +8,19 @@ permalink: /order/
 <h2>Hatch Effect | Print Order</h2>
 <hr class="order-hr">
 <form action="https://formspree.io/mdowdrkn" method="POST">
+    <p class="quantity">Issue #<span class="quantity-one">2</span> Quantity</p>
+            <select name="quantity" class="order-quantity">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+    <br><br>
     <p class="quantity">Issue #<span class="quantity-one">1</span> Quantity</p>
             <select name="quantity" class="order-quantity">
+                <option>0</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -328,7 +339,7 @@ permalink: /order/
                 </div>
             </fieldset>
     
-    <p class="help-block"><em>Please allow one to two weeks for comics to arrive. Payment will be collected once order has been shipped. Each issue costs <strong>$3.99</strong> with a limit of five issues per customer order. A charge of <strong>$1.99</strong> will be applied to all orders for shipping and handling. Additional shipping and handling charges may be applied to orders shipped outside of the U.S. <strong>Thanks for buying Hatch Effect #1!</strong></em></p>
+    <p class="help-block"><em>Please allow one to two weeks for comics to arrive. Payment will be collected once order has been shipped. Each issue costs <strong>$3.99</strong> with a limit of ten issues per customer order. A charge of <strong>$1.99</strong> will be applied to all orders for shipping and handling. Additional shipping and handling charges may be applied to orders shipped outside of the U.S. <strong>Thanks for buying Hatch Effect!</strong></em></p>
     <input type="submit" value="Place Order" class="sender">
 </form>
 </div>
