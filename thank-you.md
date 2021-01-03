@@ -15,10 +15,10 @@ permalink: /thank-you/
 
 <div class="row mt-3">
     <div class="col-md-6">
-    <img src="../images/hatch-effect-2-cover.jpg" class="img-fluid p-4 pr-md-2"/>
+    <img src="../images/hatch-effect-2-cover.jpg" class="img-fluid p-md-4 pr-md-2"/>
     </div>
     <div class="col-md-6">
-    <img src="../images/hatch1.jpg" class="img-fluid p-4 pl-md-2"/>
+    <img src="../images/hatch1.jpg" class="img-fluid p-md-4 pl-md-2"/>
     </div>
 </div>
 </div>
