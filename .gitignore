@@ -2,3 +2,7 @@
 _site/
 .bundle/
 vendor/
+.brackets.json
+cors.md
+dist/js/shredDateRender.js
+dist/shredDateRender.min.js
