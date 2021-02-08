@@ -43,6 +43,9 @@ if (bodySet != '') {
     if (bodySet == 'hatch') {
     paginaTor(bodySet,currPageCount,2);
     }
+    if (bodySet == 'hero') {
+    paginaTor(bodySet,currPageCount,2);
+    }
     else if (bodySet == 'campbell') {
     paginaTor(bodySet,currPageCount,3);
     }

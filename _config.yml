@@ -16,6 +16,9 @@ collections:
   hatch:
     output: true
     permalink: :collection/:name
+  hero:
+    output: true
+    permalink: :collection/:name
   izaak:
     output: true
     permalink: :collection/:name
