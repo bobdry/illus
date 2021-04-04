@@ -8,19 +8,28 @@ permalink: /order/
 <h2>Hatch Effect | Print Order</h2>
 <hr class="order-hr">
 <form action="https://formspree.io/f/mdowdrkn" method="POST" onsubmit="return validateForm()" id="hatchPrice">
-    <p class="quantity">Issue #<span class="quantity-one">2</span> Quantity</p>
+    <div class="row">
+        <!-- issue #2 -->
+        <div class="col-md-5 text-center">
+        <img src="../images/hatch-effect-2-cover.jpg" class="img-fluid pt-3 pr-md-2 pl-md-3 pb-3"/>
+        <p class="quantity">Issue #<span class="quantity-one">2</span> Quantity</p>
             <select name="quantity" class="order-quantity" id="hatchPriceIssueTwo">
                 <option>0</option>
                 <option>1</option>
                 <option>2</option>
             </select>
-    <br><br>
-    <p class="quantity">Issue #<span class="quantity-one">1</span> Quantity</p>
+        </div>
+        <!-- issue #1 -->
+        <div class="col-md-5 text-center">
+        <img src="../images/hatch1.jpg" class="img-fluid pt-3 pr-md-2 pl-md-3 pb-3"/>
+        <p class="quantity text-center">Issue #<span class="quantity-one">1</span> Quantity</p>
             <select name="quantity" class="order-quantity" id="hatchPriceIssueOne">
                 <option>0</option>
                 <option>1</option>
                 <option>2</option>
             </select>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-5">
             <p>Name</p>
