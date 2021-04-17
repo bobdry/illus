@@ -150,6 +150,15 @@ img.cloniger {
     margin: 2.5rem 0 0.25rem 0;
 }
 
+div.comixology-ad {
+    background: #fff5e8 url(/illus/images/comixology-ad.jpg) no-repeat -1.875rem -.125rem;
+    background-size: 424px 400px;
+    text-align: center;
+    font-size: 1.375rem;
+    padding-top: 19.5rem!important;
+    max-width: 23.5rem;
+}
+
 /************* home content ***************/
 
 div.home-thumbs{
