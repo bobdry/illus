@@ -7,17 +7,20 @@ permalink: /contact/
 <div class="chat">
 <h2>Let&rsquo;s chat</h2>
 <hr class="order-hr">
-<form action="https://formspree.io/f/bobbyddry@outlook.com" method="POST">
-    <p>Name</p>
-    <input type="text" name="name" placeholder="" class="mini_chat" required>
-    <p>Email</p>
-    <input type="email" name="email" placeholder="" class="mini_chat" required>
-    <p>Phone number</p>
-    <input type="tel" name="tel" title="Phone Number" required>
-    <p>Message</p>
-    <textarea name="message" rows="10" required></textarea>
-    <p><em>Anything else?</em></p>
-    <input type="text" name="extra" placeholder="" class="max_chat">
-    <input type="submit" value="Send" class="sender">
+<form
+  action="https://formspree.io/f/mzbodday"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto"  class="mini_chat" required>
+  </label>
+  <label>
+    Your message:
+    <textarea name="message" class="max_chat" required></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit" class="sender">Send</button>
 </form>
+<p><strong>Note:</strong> If you&rsquo;d like to order print issues of <strong>Hatch Effect</strong> let me know how many of each issue and your shipping address. We&rsquo;ll work out payment once your order is ready to ship.</p>
 </div>
