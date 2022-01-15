@@ -18,5 +18,5 @@ permalink: /order/
         <img src="../images/hatch1.jpg" class="img-fluid pt-3 pr-md-2 pl-md-3 pb-3"/>
         <p class="quantity text-center">Issue #<span class="quantity-one">1</span></p>
         </div>
-        <p class="text-center"><em>For print issues of <strong>Hatch Effect</strong> submit a request to <strong><a href="{{ "contact/" | prepend: site.baseurl }}">Contact</a></strong>.</em></p>
+        <p class="text-center" style="width: 100%;max-width: 44rem;"><em>For print issues of <strong>Hatch Effect</strong> submit a request to <strong><a href="{{ "contact/" | prepend: site.baseurl }}">Contact</a></strong>.</em></p>
 </div>
