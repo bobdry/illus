@@ -1,17 +1,19 @@
-<!-- header container -->
-<div class="header-wrapper">
-    <div class="header">
-            <a href="{{ "" | prepend: site.baseurl }}"><img src="{{ "images/bob_dry_illustration.png" | prepend: site.baseurl }}" class="logo img-fluid" alt="Bob Dry Illustration" height="120" width="340"/></a>             
-    <!-- blue container -->
-    <div class="nav-blue">
-        <nav>
-        <ul>
-        <li><a href="{{ "" | prepend: site.baseurl }}">HOME</a></li>           
-        <li><a href="{{ "order/" | prepend: site.baseurl }}">ORDER COMICS</a></li>
-        <li><a href="{{ "contact/" | prepend: site.baseurl }}">CONTACT</a></li>
-        <li><a href="http://www.twitter.com/bobbyDdry">FOLLOW</a></li>
-        </ul>
-        </nav>
+<!-- nav container -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bd-nav">
+    <div class="container-fluid">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <strong><a class="nav-link text-center" href="{{ "" | prepend: site.baseurl }}">HOME</a></strong>
+              </li>
+              <li class="nav-item">
+                <strong><a class="nav-link text-center" href="{{ "about/" | prepend: site.baseurl }}">ABOUT</a></strong>
+              </li>
+              <li class="nav-item">
+                <strong><a class="nav-link text-center" href="{{ "comics/" | prepend: site.baseurl }}">COMICS</a></strong>
+              </li>
+              <li class="nav-item">
+                <strong><a class="nav-link text-center" href="{{ "contact/" | prepend: site.baseurl }}">CONTACT</a></strong>
+              </li>
+            </ul>    
     </div>
-    </div>
-</div>
+</nav>

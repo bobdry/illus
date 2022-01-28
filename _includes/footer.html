@@ -1,7 +1,18 @@
 <footer>
-	  <p class="copy text-right">&copy;2021 Bob Dry Illustration, All rights reserved.</p>
+	<p class="copy text-center">
+		<a class="bd-icons" href="{{ "contact/" | prepend: site.baseurl }}">
+			<svg>
+				<use xlink:href="/illus/images/v3/bd-icons.svg#envelope" />
+			</svg>
+		</a>
+		<a class="bd-icons" href="https://twitter.com/bobbyDdry" target="_blank">
+			<svg>
+				<use xlink:href="/illus/images/v3/bd-icons.svg#twitter" />
+			</svg>
+		</a>
+	</p>
+	<p class="copy text-center">&copy;2022 Bob Dry Illustration, All rights reserved.</p>
 </footer>
-<!-- JS library -->  
+<!-- JS -->  
+<script type="text/JavaScript" src="{{ "dist/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 <script type="text/JavaScript" src="{{ "dist/main.min.js" | prepend: site.baseurl }}"></script>
-</body>	
-</html>

@@ -18,8 +18,8 @@ var paginaTor = function(set,curr,tots) {
     var urlHyp = "-"
     var currPlus = parseInt(curr) + 1;
     var currMinus = parseInt(curr) - 1;
-    var prevEnd = ".html\">&laquo; Previous</a>"
-    var nextEnd = ".html\">Next &raquo;</a>"
+    var prevEnd = ".html\">&laquo;</a>"
+    var nextEnd = ".html\">&raquo;</a>"
 //for base Jekyll
 //    var prevInner = baseUrl.concat(set,urlSlash,set,urlHyp,currMinus,urlSlash,prevEnd)
 //    var nextInner = baseUrl.concat(set,urlSlash,set,urlHyp,currPlus,urlSlash,nextEnd)
@@ -40,25 +40,31 @@ var paginaTor = function(set,curr,tots) {
 }
 
 if (bodySet != '') {
-    if (bodySet == 'hatch') {
-    paginaTor(bodySet,currPageCount,2);
+    if (bodySet == 'campbell') {
+        paginaTor(bodySet,currPageCount,4);
     }
-    if (bodySet == 'hero') {
-    paginaTor(bodySet,currPageCount,2);
+    else if (bodySet == 'con') {
+        paginaTor(bodySet,currPageCount,4);
     }
-    else if (bodySet == 'campbell') {
+    else if (bodySet == 'crown') {
+        paginaTor(bodySet,currPageCount,4);
+    }
+    else if (bodySet == 'guada') {
+        paginaTor(bodySet,currPageCount,4);
+    }
+    else if (bodySet == 'hatch') {
     paginaTor(bodySet,currPageCount,3);
     }
+    else if (bodySet == 'hero') {
+    paginaTor(bodySet,currPageCount,4);
+    }
     else if (bodySet == 'izaak') {
-    paginaTor(bodySet,currPageCount,9);
+    paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'kids') {
-    paginaTor(bodySet,currPageCount,2);
+    paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'nature') {
     paginaTor(bodySet,currPageCount,3);
-    }
-    else if (bodySet == 'guada') {
-    paginaTor(bodySet,currPageCount,2);
     }
 }

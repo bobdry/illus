@@ -1,14 +1,8 @@
 ---
 portfolio: guada
-title:  "Guada MX"
-description: "Attack of the Iguanas & Bus Drifter, Route 606"
-layout: portfolio
+title:  "Guada, MX"
+description: "Dug too deep"
+imgSrc: "../images/v3/guada/guada-1.jpg"
+layout: port-v
+set: guada
 ---
-<div class="row">
-    <div class="col-md-6">
-    <img src="../images/guada1.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-    <img src="../images/guada2.jpg" class="img-fluid"/>
-    </div>
-</div>

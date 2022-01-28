@@ -1,14 +1,8 @@
 ---
 portfolio: hatch
-title:  "Hatch Effect | Issue #1 | Buy <a href='/illus/order/' >Print</a> <em>or</em> buy <a href='https://www.amazon.com/gp/product/B09L2GK8W9' target='_blank'>Digital</a> on Amazon Kindle"
-description: "A tale of mountain weirdness, <strong>Hatch Effect</strong> is a comic book from creators Bob Dry and Brian Paris. It&rsquo;s fall along the Blue Ridge Parkway. Sheila and Paul are out for a peaceful ride when suddenly they crash into an unexpected time."
-layout: portfolio
+title:  "Hatch Effect #2"
+description: "Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads."
+imgSrc: "../images/v3/hatch/hatch-2.jpg"
+layout: port-v
+set: hatch
 ---
-<div class="row">
-    <div class="col-md-6">
-    <img src="../images/hatch1.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-    <img src="../images/hatch2.jpg" class="img-fluid"/>
-    </div>
-</div>

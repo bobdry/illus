@@ -1,14 +1,8 @@
 ---
 portfolio: guada
-title:  "Guada MX"
-description: "The Hunter and the Juggler & Two Faiths Will Lift Her Up"
-layout: portfolio
+title:  "Guada, MX"
+description: "Travels of a blind mariachi"
+imgSrc: "../images/v3/guada/guada-2.jpg"
+layout: port-v
+set: guada
 ---
-<div class="row">
-    <div class="col-md-6">
-    <img src="../images/guada3.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-    <img src="../images/guada4.jpg" class="img-fluid"/>
-    </div>
-</div>

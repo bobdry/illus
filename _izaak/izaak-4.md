@@ -1,11 +1,8 @@
 ---
 portfolio: izaak
 title:  "The Izaak Walton League"
-description: "HOW TO: Build a Model Watershed | Outdoor America | Winter 2010"
-layout: portfolio
+description: "HOW TO: Recycle a Christmas Tree | Outdoor America"
+imgSrc: "../images/v3/izaak/izaak-4.jpg"
+layout: port-h
+set: izaak
 ---
-<div class="row">
-    <div class="col-md-12">
-    <img src="../images/izaak6.jpg" class="img-fluid"/>
-    </div>
-</div>

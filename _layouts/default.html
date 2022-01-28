@@ -1,19 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
 {% include head.html %}	
-	<body class="{{ page.set }}">
+<body class="{{ page.set }}">
 	{% include nav.html %}	
 	<!-- body -->
-	<div class="container home">	
-	<div class="row">
-	<!-- left col -->
-    	<div class="col col-md-8">
-        {{ content }}
-    	</div>   
-	<!-- right col -->
-		<div class="col-md-4">
-            <!-- info -->
-					{% include basic_info.html %}
-        </div>
-    </div>
-        	<!-- footer -->
-    </div>
-	{% include footer.html %}  
+	<div class="container bd-container">	
+		<div class="row bd-row">
+		<!-- col -->
+			<div class="col bd-top-col">
+			{{ content }}
+			</div>   
+		</div>
+	</div>
+<!-- footer -->
+{% include footer.html %}  
+</body>	
+</html>

@@ -1,14 +1,8 @@
 ---
 portfolio: nature
 title:  "Nature's Delight"
-description: "Logistics and Quality in Lime Delivery & Label art for L&M Companies Deuce Coupe Seedless Watermelons and Organic Watermelons"
-layout: portfolio
+description: "Thump, Smell, Hold Farm Fresh Cantaloupes"
+imgSrc: "../images/v3/nature/nature-2.jpg"
+layout: port-v
+set: nature
 ---
-<div class="row">
-    <div class="col-md-6">
-    <img src="../images/nature3.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-    <img src="../images/nature4.jpg" class="img-fluid"/>
-    </div>
-</div>

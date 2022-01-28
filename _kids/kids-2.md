@@ -1,14 +1,8 @@
 ---
 portfolio: kids
 title:  "Kids"
-description: "UFO Crashing in the Backyard & Aquarium Dreams"
-layout: portfolio
+description: "Attack of the gutter goo man"
+imgSrc: "../images/v3/kids/kids-2.jpg"
+layout: port-v
+set: kids
 ---
-<div class="row">
-    <div class="col-md-6">
-    <img src="../images/kids3.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-    <img src="../images/kids4.jpg" class="img-fluid"/>
-    </div>
-</div>

@@ -1,14 +1,8 @@
 ---
 portfolio: nature
 title:  "Nature's Delight"
-description: "Label Art for L&M Companies Bogue Sound Seedless Watermelons & Produce Stock Art"
-layout: portfolio
+description: "Logistics and Quality in Lime Delivery"
+imgSrc: "../images/v3/nature/nature-3.jpg"
+layout: port-v
+set: nature
 ---
-<div class="row">
-    <div class="col-md-6">
-    <img src="../images/nature5.jpg" class="img-fluid"/>
-    </div>
-    <div class="col-md-6">
-    <img src="../images/nature6.jpg" class="img-fluid"/>
-    </div>
-</div>
