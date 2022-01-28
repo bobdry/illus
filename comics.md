@@ -33,7 +33,7 @@ permalink: /comics/
         <div class="col-6 col-lg-8">
           <h3>Hatch Effect #2</h3>
           <p>Sheila, Paul and Byron try to make sense of what they've seen. Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads.</p>
-          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3"><strong>BUY PRINT</strong></a>
+          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY PRINT</strong></a>
           <a href="https://www.amazon.com/gp/product/B09L2KFYTY" class="button-bd" target="_blank"><strong>BUY DIGITAL</strong></a>
         </div>
         <div class="col-6 col-lg-4">
@@ -45,7 +45,7 @@ permalink: /comics/
         <div class="col-6 col-lg-8">
           <h3>Hatch Effect #1</h3>
           <p>It&rsquo;s fall along the Blue Ridge Parkway. Sheila and Paul are out for a peaceful ride when suddenly they crash into an unexpected time.</p>
-          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3"><strong>BUY PRINT</strong></a>
+          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY PRINT</strong></a>
           <a href="https://www.amazon.com/gp/product/B09L2KFYTY" class="button-bd" target="_blank"><strong>BUY DIGITAL</strong></a>
         </div>
         <div class="col-6 col-lg-4">
