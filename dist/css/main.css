@@ -123,21 +123,31 @@ div.bd-container div.bd-home-thumbs > a.port > svg {
     transition: 0.2s
 }
 div.bd-container div.bd-home-thumbs > a.port:hover > svg {
-    opacity: 0.8;
+    opacity: 0;
 }
 div.bd-container div.bd-home-thumbs > a.port > img {
     opacity: 1;
     transition: 0.2s
 }
 div.bd-container div.bd-home-thumbs > a.port:hover > img {
-    opacity: .25;
+    opacity: 1;
 }
+
 div.bd-container div.bd-home-thumbs > a.con-commish {
     margin-top: 0;
 }
 
-
 @media (min-width:992px) {
+    div.bd-container div.bd-home-thumbs > a.port:hover > svg {
+        opacity: 0.8;
+    }
+    div.bd-container div.bd-home-thumbs > a.port > img {
+        opacity: 1;
+        transition: 0.2s
+    }
+    div.bd-container div.bd-home-thumbs > a.port:hover > img {
+        opacity: 0.25;
+    }
     div.bd-container div.bd-home-thumbs a.bd-logo-home {padding: 0 1.0rem;}
     div.bd-container div.bd-home-thumbs a.bd-logo-home svg#bd-logo {margin: -1.0rem 0 -0.5rem 0;}
     div.bd-container div.bd-home-thumbs > a.con-commish {margin-top: -3.25rem;}

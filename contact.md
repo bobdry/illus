@@ -23,7 +23,7 @@ permalink: /contact/
       </label>
       <label>
         Your message:
-        <textarea name="message" class="p-2" required></textarea>
+        <textarea name="message" class="mt-2 p-2" required></textarea>
       </label>
       <!-- your other form fields go here -->
       <button type="submit" class="mt-4"><strong>SEND</strong></button>
