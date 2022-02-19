@@ -15,13 +15,13 @@ permalink: /comics/
     <div class="chat">
     <h1>Comics!</h1>
     <hr class="order-hr">
-    <p>I do love comics, so much so that I draw an indie one, <strong><em>Hatch Effect</em></strong>.</p>
+    <p>I do love comics, so much so that I draw an indie one, <strong>Hatch Effect</strong>.</p>
     <hr class="mt-4">
     <div class="row">
         <div class="col-6 col-lg-8">
           <h3>Hatch Effect #3</h3>
           <p>Out later this year, the saga continues…</p>
-          <p>Joe and Luis make another grand attempt. Serena lands in Asheville, itching to chase down her new crypto leads, and the reason for the chaos becomes clearer.</p>
+          <p>Joe and Luis make another grand attempt. Serena lands in Asheville, itching to chase down her new cryptozoology leads, and the reason for the chaos becomes clearer.</p>
           <a href="#" class="button-bd dead"><strong>COMING SOON</strong></a>
         </div>
         <div class="col-6 col-lg-4">
