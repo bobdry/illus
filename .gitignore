@@ -6,3 +6,4 @@ vendor/
 cors.md
 dist/js/shredDateRender.js
 dist/shredDateRender.min.js
+.vscode/
