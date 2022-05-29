@@ -20,9 +20,9 @@ permalink: /comics/
     <div class="row">
         <div class="col-6 col-lg-8">
           <h3>Hatch Effect #3</h3>
-          <p>Out later this year, the saga continues…</p>
           <p>Joe and Luis make another grand attempt. Serena lands in Asheville, itching to chase down her new cryptozoology leads, and the reason for the chaos becomes clearer.</p>
-          <a href="#" class="button-bd dead"><strong>COMING SOON</strong></a>
+          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY PRINT</strong></a>
+          <a href="https://www.amazon.com/gp/product/B09L2KFYTY" class="button-bd" target="_blank"><strong>BUY DIGITAL</strong></a>
         </div>
         <div class="col-6 col-lg-4">
           <img src="{{ "/images/v3/hatch/hatch-3.jpg" | prepend: site.baseurl }}" alt="Hatch Effect #3 image" class="img-fluid">
@@ -32,7 +32,7 @@ permalink: /comics/
     <div class="row">
         <div class="col-6 col-lg-8">
           <h3>Hatch Effect #2</h3>
-          <p>Sheila, Paul and Byron try to make sense of what they've seen. Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads.</p>
+          <p>Sheila, Paul and Byron try to make sense of what they&rsquo;ve seen. Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads.</p>
           <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY PRINT</strong></a>
           <a href="https://www.amazon.com/gp/product/B09L2KFYTY" class="button-bd" target="_blank"><strong>BUY DIGITAL</strong></a>
         </div>
