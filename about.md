@@ -15,7 +15,7 @@ permalink: /about/
     <div class="chat">
     <h1>About me</h1>
     <hr class="order-hr">
-    <p>I&rsquo;ve worked in the creative industry for many years. As an illustrator, I&rsquo;ve drawn for The Izaak Walton League, Nature&rsquo;s Delight, <em>Campbell Magazine</em>, Corona and Modelo Beers, and a few others. My style is expressive and fun, starting with blue lines and then moving to digital. My pitch to clients is, take a different approach &ndash; let one of my illustrations capture the people&rsquo;s attention.</p>
+    <p>I&rsquo;ve worked in the creative industry for many years. As an illustrator, I&rsquo;ve drawn for The Izaak Walton League, Nature&rsquo;s Delight, <em>Campbell Magazine</em>, Corona and Modelo Beers, and a few others. My style is expressive and fun, starting with blue lines and then moving to digital. My pitch to clients, take a different approach &ndash; let one of my illustrations capture the people&rsquo;s attention.</p>
     <p class="mt-4">As for inspiration, I&rsquo;m inspired by our species &ndash; how we get along and how we don&rsquo;t. Being a kid of the 80&rsquo;s, cartoons, comics, and movies had me dreaming big long before the age of the Internet. When I wake up in the morning, I like a tall cup of coffee and a seat at the drafting table. Mind and hand, let the drawing flow.</p>
     </div>
   </div>
