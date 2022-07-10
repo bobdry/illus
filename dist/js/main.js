@@ -44,7 +44,7 @@ if (bodySet != '') {
         paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'con') {
-        paginaTor(bodySet,currPageCount,4);
+        paginaTor(bodySet,currPageCount,8);
     }
     else if (bodySet == 'crown') {
         paginaTor(bodySet,currPageCount,4);
