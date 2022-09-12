@@ -340,3 +340,8 @@ div.chat a.button-bd.dead:hover {
         font-size: 1.5rem;
     }
 }
+
+img.img-sidebar {
+    border-top: 0.5rem #00e4ff solid;
+    border-bottom: 0.5rem #fd348e solid;
+}
