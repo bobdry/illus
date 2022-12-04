@@ -37,6 +37,9 @@ collections:
   hero:
     output: true
     permalink: :collection/:name
+  ice:
+    output: true
+    permalink: :collection/:name
   izaak:
     output: true
     permalink: :collection/:name
