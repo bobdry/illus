@@ -23,7 +23,7 @@ permalink: /comics/
     <div class="row">
         <div class="col-6 col-lg-8">
           <h3>Ice in the Shadows</h3>
-          <p>Debuting 9.22.23</p>
+          <p>Debuting 8.1.23</p>
         </div>
         <div class="col-6 col-lg-4">
           <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid">
