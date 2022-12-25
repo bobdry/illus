@@ -205,21 +205,21 @@ footer > p > a.bd-icons:first-of-type:hover svg {
     fill: #fd348e;
 }
 footer p:last-child {
-    background: #efefef;
+    background: #fff;
     color: #888;
-    margin: 1.74rem 0 3.0rem 0;
+    margin: 1.0rem 0 3.0rem 0;
     padding: 0.5rem 0;
 }
 
 @media (min-width:768px) {
     footer {margin: 8rem auto 0 auto;max-width: 26.0rem;}
     footer p {font-size: 1.125rem;} 
-    footer > p > a.bd-icons {background: #efefef;}
+    footer > p > a.bd-icons {background: #fff;}
     footer > p > a.bd-icons:hover {
-        background: #cbf6fb;
+        background: #fff;
     }
     footer > p > a.bd-icons:first-of-type:hover {
-        background: #fbcee2;
+        background: #fff;
     }
 }
 
