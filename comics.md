@@ -17,24 +17,24 @@ permalink: /comics/
     <p>I do love comics, so much so that I draw a couple of indie ones,<br> <strong>Ice in the Shadows</strong> and <strong>Hatch Effect</strong>.</p>
     <hr class="mt-4">
     <div class="row">
-        <div class="col col-lg-7">
+        <div class="col-12 col-lg-7">
           <h3>Ice in the Shadows</h3>
           <p>The Kingdom family is returning home to Cincinnati from Pittsburgh after a nice holiday with Wilson&rsquo;s parents. About half way someone needs to pee. They find an exit. Wilson insists this will be a quick pitstop and back on the road they must go.</p>
           <a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ MO</strong></a>
         </div>
-        <div class="col col-lg-5">
+        <div class="col-12 col-lg-5">
           <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid">
         </div>
       </div>
           <hr class="mt-3">
     <div class="row">
-        <div class="col col-lg-7">
+        <div class="col-12 col-lg-7">
           <h3>Hatch Effect</h3>
           <p>Sheila, Paul and Byron try to make sense of what they&rsquo;ve seen. Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads.</p>
           <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY PRINT</strong></a>
           <a href="https://www.amazon.com/gp/product/B09L2KFYTY" class="button-bd" target="_blank"><strong>BUY DIGITAL</strong></a>
         </div>
-        <div class="col col-lg-5">
+        <div class="col-12 col-lg-5">
           <img src="{{ "/images/v3/thumb/hatch-thumbs.jpg" | prepend: site.baseurl }}" alt="Hatch Effect #2 image" class="img-fluid">
         </div>
       </div>
