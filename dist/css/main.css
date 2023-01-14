@@ -265,7 +265,7 @@ article.ice-chapter {
     background: #000;
     text-align: center;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     min-height: 34.0rem;
     display: flex;
     flex-direction: column;
@@ -279,11 +279,11 @@ article.ice-chapter h2 {
 
 article.ice-chapter p {
     margin-bottom: 0;
-    line-height: 2.375rem;
+    line-height: 2.125rem;
 }
 
 article.ice-chapter p span {
-    font-size: 2.25rem;
+    font-size: 2.0rem;
     display: block;
 }
 
@@ -302,8 +302,13 @@ article.ice-chapter p span {
     article.ice-chapter {min-height: 70.375rem;}
 }
 
+article.ice-page img {
+    min-height: 6.25rem;
+    background: #ededed;
+}
+
 article.ice-page p {
-    margin: -0.375rem 1.0rem 0 1.0rem;
+    margin: 0 1.0rem 0 1.0rem;
     text-align: center;
     line-height: 1.25rem;
     color: #555;
