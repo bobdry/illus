@@ -53,19 +53,19 @@ if (bodySet != '') {
         paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'hatch') {
-    paginaTor(bodySet,currPageCount,3);
+        paginaTor(bodySet,currPageCount,3);
     }
     else if (bodySet == 'hero') {
-    paginaTor(bodySet,currPageCount,4);
+        paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'ice') {
-        paginaTor(bodySet,currPageCount,1);
-        }
+        paginaTor(bodySet,currPageCount,3);
+    }
     else if (bodySet == 'izaak') {
-    paginaTor(bodySet,currPageCount,4);
+        paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'kids') {
-    paginaTor(bodySet,currPageCount,4);
+        paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'nature') {
     paginaTor(bodySet,currPageCount,3);
