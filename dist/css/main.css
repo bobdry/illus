@@ -296,7 +296,8 @@ article.ice-chapter p span {
 @media (min-width:992px) {
     article.ice-chapter h2 {font-size: 4.0rem;margin: 0.5rem 0 17.5rem 0;}
     article.ice-chapter p {line-height: 2.75rem;}
-    article.ice-chapter {min-height: 50.75rem;}
+    article.ice-chapter p span {font-size: 2.25rem;}
+    article.ice-chapter {min-height: 50.75rem; font-size: 1.5rem;}
 }
 @media (min-width:1200px) {
     article.ice-chapter {min-height: 70.375rem;}
@@ -308,7 +309,7 @@ article.ice-page img {
 }
 
 article.ice-page p {
-    margin: 0 1.0rem 0 1.0rem;
+    margin: 0 1.0rem 0.125rem 1.0rem;
     text-align: center;
     line-height: 1.25rem;
     color: #555;
