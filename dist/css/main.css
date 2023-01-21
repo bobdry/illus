@@ -265,7 +265,7 @@ article.ice-chapter {
     background: #000;
     text-align: center;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 0.875rem;
     min-height: 34.0rem;
     display: flex;
     flex-direction: column;
@@ -273,17 +273,18 @@ article.ice-chapter {
 }
 
 article.ice-chapter h2 {
-    font-size: 3.0rem;
+    font-size: 4.0rem;
     margin: 0.25rem 0 8.0rem 0;
 }
 
 article.ice-chapter p {
     margin-bottom: 0;
     line-height: 2.125rem;
+    letter-spacing: 0.25rem;
 }
 
 article.ice-chapter p span {
-    font-size: 2.0rem;
+    font-size: 2.25rem;
     display: block;
 }
 
@@ -294,9 +295,9 @@ article.ice-chapter p span {
     article.ice-chapter {min-height: 64.75rem;} 
 }
 @media (min-width:992px) {
-    article.ice-chapter h2 {font-size: 4.0rem;margin: 0.5rem 0 17.5rem 0;}
+    article.ice-chapter h2 {font-size: 6rem;line-height: 7.0rem;margin: 0 0 20rem 0;}
     article.ice-chapter p {line-height: 2.75rem;}
-    article.ice-chapter p span {font-size: 2.25rem;}
+    article.ice-chapter p span {font-size: 2.5rem;}
     article.ice-chapter {min-height: 50.75rem; font-size: 1.5rem;}
 }
 @media (min-width:1200px) {
