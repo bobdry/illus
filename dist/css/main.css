@@ -263,22 +263,23 @@ div.pagination p span a:hover {
 /* ice */
 article.ice-chapter {
     background: #000;
-    text-align: center;
     color: #fff;
-    font-size: 0.875rem;
-    min-height: 34.0rem;
     display: flex;
     flex-direction: column;
+    font-size: 0.875rem;
     justify-content: center;
+    margin: 0 0.1875rem 1.0rem 0.1875rem;
+    min-height: 8.0rem;
+    text-align: center;
 }
 
 article.ice-chapter h2 {
     font-size: 4.0rem;
-    margin: 0.25rem 0 8.0rem 0;
+    margin: 0.25rem 0 5.0rem 0;
 }
 
 article.ice-chapter p {
-    margin-bottom: 0;
+    margin: 3.0rem 0 0 0;
     line-height: 2.125rem;
     letter-spacing: 0.25rem;
 }
@@ -289,19 +290,17 @@ article.ice-chapter p span {
 }
 
 @media (min-width:576px) {
-    article.ice-chapter {min-height: 48.0rem;} 
+    article.ice-chapter {min-height: 9.0rem;} 
 }
 @media (min-width:768px) {
-    article.ice-chapter {min-height: 64.75rem;} 
+    article.ice-chapter {min-height:12.0rem;} 
+    article.ice-chapter p {margin: 2.0rem 0 0 0;}
 }
 @media (min-width:992px) {
-    article.ice-chapter h2 {font-size: 6rem;line-height: 7.0rem;margin: 0 0 20rem 0;}
-    article.ice-chapter p {line-height: 2.75rem;}
-    article.ice-chapter p span {font-size: 2.5rem;}
-    article.ice-chapter {min-height: 50.75rem; font-size: 1.5rem;}
-}
-@media (min-width:1200px) {
-    article.ice-chapter {min-height: 70.375rem;}
+    article.ice-chapter h2 {font-size: 4.0rem;line-height: 4.0rem;margin: 0 0 2.0rem 0;}
+    article.ice-chapter p {line-height: 2.0rem;}
+    article.ice-chapter p span {font-size: 2.0rem;}
+    article.ice-chapter {min-height: 18.0rem; font-size: 1.25rem;}
 }
 
 article.ice-page img {
