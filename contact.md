@@ -14,6 +14,7 @@ permalink: /contact/
     <div class="chat">
     <h1>Let&rsquo;s chat</h1>
     <hr class="order-hr">
+    <p class="mt-1">If you&rsquo;d like to buy issues of <strong>5 Steps Away</strong> let me know how many of each issue and your shipping address. We&rsquo;ll work out payment once your order is ready to ship.</p>
     <form action="https://formspree.io/f/mzbodday" method="POST">
       <label>
         Email:

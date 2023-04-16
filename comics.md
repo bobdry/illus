@@ -31,10 +31,27 @@ permalink: /comics/
         <div class="col-12 col-lg-5">
           <h3>5 Steps Away</h3>
           <p>Sheila, Paul and Byron try to make sense of what they&rsquo;ve seen. Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads.</p>
-          <p><strong><em>Coming back soon.</em></strong></p>
+          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY</strong></a>
         </div>
         <div class="col-12 col-lg-7">
-          <img src="{{ "/images/v3/ice/5-steps-away-cover.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="{{ "/images/v3/ice/5-steps-away-cover-3.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid d-block w-100">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{ "/images/v3/ice/5-steps-away-cover-2.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #2 image" class="img-fluid d-block w-100">
+              </div>
+              <div class="carousel-item">
+                  <img src="{{ "/images/v3/ice/5-steps-away-cover-1.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #1 image" class="img-fluid d-block w-100">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
   </div>
