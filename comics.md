@@ -31,7 +31,8 @@ permalink: /comics/
         <div class="col-12 col-lg-5">
           <h3>5 Steps Away</h3>
           <p>Sheila, Paul and Byron try to make sense of what they&rsquo;ve seen. Bo and Phil arrive at the mine in time for a startling discovery. The Bright Creek miners face peril of prehistoric proportions. Word of these phenomena spreads.</p>
-          <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY</strong></a>
+          <a href="https://www.amazon.com/gp/product/B09L2KFYTY" class="button-bd me-3" target="_blank"><strong>BUY</strong></a>
+          <p class="mb-3 fs-6"><em>Available on Amazon Kindle.</em></p>
         </div>
         <div class="col-12 col-lg-7">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
