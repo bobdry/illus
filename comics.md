@@ -30,7 +30,7 @@ permalink: /comics/
     <div class="row">
         <div class="col-12 col-lg-5">
           <h3>5 Steps Away</h3>
-          <p>Frank and Luis make another grand attempt. Serena lands in Asheville, itching to chase down her new cryptozoology leads, and the reason for the chaos becomes clearer.</p>
+          <p>Joe and Luis make another grand attempt. Serena lands in Asheville, itching to chase down her new cryptozoology leads, and the reason for the chaos becomes clearer.</p>
           <a href="{{ "contact/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>BUY</strong></a>
         </div>
         <div class="col-12 col-lg-7">
