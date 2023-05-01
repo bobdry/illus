@@ -7,7 +7,7 @@ permalink: /comics/
   <div class="row g-0 row-cols-1 row-cols-lg-3">
     <div class="col-lg-4 bd-home-thumbs">
         <p class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
-        <img src="../images/v3/my_wolvie.jpg" class="img-fluid img-sidebar">
+        <img src="../images/v3/my_wolvie.jpg" class="img-fluid img-sidebar" loading="lazy" width="578" height="800">
         </p>
     </div>
     <div class="col-lg-7">
@@ -23,7 +23,7 @@ permalink: /comics/
           <a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ</strong></a>
         </div>
         <div class="col-12 col-lg-7 mb-4">
-          <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid">
+          <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid" loading="lazy" width="1612" height="2400">>
         </div>
       </div>
           <hr class="mt-3">
@@ -42,13 +42,13 @@ permalink: /comics/
   </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="{{ "/images/v3/ice/5-steps-away-cover-3.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid d-block w-100">
+                  <img src="{{ "/images/v3/ice/5-steps-away-cover-3.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" loading="lazy" width="1612" height="2450">
               </div>
               <div class="carousel-item">
-                  <img src="{{ "/images/v3/ice/5-steps-away-cover-2.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #2 image" class="img-fluid d-block w-100">
+                  <img src="{{ "/images/v3/ice/5-steps-away-cover-2.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" loading="lazy" width="1612" height="2450">
               </div>
               <div class="carousel-item">
-                  <img src="{{ "/images/v3/ice/5-steps-away-cover-1.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #1 image" class="img-fluid d-block w-100">
+                  <img src="{{ "/images/v3/ice/5-steps-away-cover-1.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" loading="lazy" width="1612" height="2450">
               </div>
             </div>
           </div>
