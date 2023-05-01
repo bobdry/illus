@@ -7,7 +7,7 @@ permalink: /contact/
   <div class="row g-0 row-cols-1 row-cols-lg-3">
     <div class="col-lg-4 bd-home-thumbs">
         <p class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
-        <img src="../images/v3/my_operator.jpg" class="img-fluid img-sidebar"loading="lazy" width="578" height="800">
+        <img src="../images/v3/my_operator.jpg" class="img-fluid img-sidebar" loading="lazy" width="578" height="800">
         </p>
     </div>
     <div class="col-lg-7">
