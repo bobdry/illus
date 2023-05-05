@@ -15,8 +15,8 @@ permalink: /about/
     <h1>Draw me something</h1>
     <hr class="order-hr">
     <p>Wolverine #1 came out in 1988. I was 11. We were moving from Greensboro to Lumberton and my mom needed something to keep me entertained on the trips back and forth. John Buscema&rsquo;s art did a really good job.</p>
-    <p class="mt-4">I started reading comics and drawing for real back then. Went to design school, worked for a printer, an ad agency, some higher ed and some tech companies. All the while my passion has remained, drawing pictures in a sequence to tell stories.</p>
-    <p class="mt-4">I&rsquo;ve drawn for The Izaak Walton League, Nature&rsquo;s Delight, Campbell Magazine, Corona and Modelo Beers, and a few others. My style is expressive and dreamy. I start with blue lines, then inks and then analog and/or digital colors. For clients, let&rsquo;s take a different approach, let one of my illustrations really capture your audience&rsquo;s attention.</p>
+    <p class="mt-4">I started reading comics and drawing for real back then. Went to design school, worked for a printer, an ad agency, some higher ed and some tech companies. All the while my passion has remained drawing pictures in a sequence to tell stories.</p>
+    <p class="mt-4">I&rsquo;ve drawn for The Izaak Walton League, Nature&rsquo;s Delight, Campbell Magazine, Corona and Modelo Beers, and a few others. My style is expressive and dreamy. I start with blue lines, then inks and then analog and digital colors. For clients, let&rsquo;s take a different approach, let one of my illustrations really capture your audience&rsquo;s attention.</p>
     <p class="mt-4">When I wake up in the morning, I like a tall cup of coffee and a seat at the drafting table. Mind and hand, let the drawing flow.</p>
     </div>
   </div>
