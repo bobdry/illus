@@ -257,6 +257,19 @@ div.pagination p span a:hover {
     color: #fff;
 }
 
+div.pagination p span a.no-paginator {
+    font-size: 1.75rem;
+    width: auto;
+    padding: 0.75rem 1.25rem 0.5rem 1.125rem;
+    letter-spacing: 0.0625rem;
+}
+
+/* The animation code */
+@keyframes chapter-anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 /* ice */
 article.ice-chapter {
     background: #000;
@@ -268,6 +281,9 @@ article.ice-chapter {
     margin: 0 0.1875rem 1.0rem 0.1875rem;
     min-height: 8.0rem;
     text-align: center;
+    opacity: 1;
+    animation-name: chapter-anim;
+    animation-duration: 1.0s;
 }
 
 article.ice-chapter h2 {
@@ -303,9 +319,16 @@ article.ice-chapter p span {
 article.ice-page img {
     background: #fff;
     margin: 0 0 0.625rem 0;
-    min-height: 6.25rem;
 }
-
+/* lazy img */
+article.ice-page span.ice-frame {
+	opacity:0;
+}
+article.ice-page span.ice-frame.loaded {
+    opacity: 1;
+    animation-name: chapter-anim;
+    animation-duration: 0.3s;
+}
 article.ice-page p {
     margin: 0 1.0rem 0.75rem 1.0rem;
     text-align: center;

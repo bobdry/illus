@@ -20,10 +20,7 @@ var paginaTor = function(set,curr,tots) {
     var currMinus = parseInt(curr) - 1;
     var prevEnd = ".html\">&laquo;</a>"
     var nextEnd = ".html\">&raquo;</a>"
-//for base Jekyll
-//    var prevInner = baseUrl.concat(set,urlSlash,set,urlHyp,currMinus,urlSlash,prevEnd)
-//    var nextInner = baseUrl.concat(set,urlSlash,set,urlHyp,currPlus,urlSlash,nextEnd)
-//for AWS
+
     var prevInner = baseUrl.concat(set,urlSlash,set,urlHyp,currMinus,prevEnd)
     var nextInner = baseUrl.concat(set,urlSlash,set,urlHyp,currPlus,nextEnd)
     if (curr > 1) {
@@ -37,6 +34,44 @@ var paginaTor = function(set,curr,tots) {
     if (curr < tots) {
     document.getElementById('bdNext').innerHTML = nextInner;
     }
+}
+
+// Set things up, one window load create target object and call createObserver func
+window.addEventListener(
+    "load",
+    (e) => {
+        lazyImages = document.querySelectorAll('span.ice-frame img');
+        createObserver();
+    },
+    false
+);
+
+// intersection observer function
+function createObserver() {
+    let observer;
+
+    let options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.5,
+    };
+
+    observer = new IntersectionObserver(handleIntersect, options);
+    lazyImages.forEach(img => {
+        // observer.observe(img);
+        // if (!img.complete) {
+            img.addEventListener('load', observer.observe(img), false);
+        // }  
+    });
+}
+
+// function observer call when intersection occurs
+function handleIntersect(entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.parentElement.classList.add('loaded');
+        }
+    })
 }
 
 if (bodySet != '') {
@@ -60,6 +95,7 @@ if (bodySet != '') {
     }
     else if (bodySet == 'ice') {
         paginaTor(bodySet,currPageCount,2);
+        // lazyLoad();
     }
     else if (bodySet == 'izaak') {
         paginaTor(bodySet,currPageCount,4);
