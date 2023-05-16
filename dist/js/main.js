@@ -36,16 +36,6 @@ var paginaTor = function(set,curr,tots) {
     }
 }
 
-// Set things up, one window load create target object and call createObserver func
-window.addEventListener(
-    "load",
-    (e) => {
-        lazyImages = document.querySelectorAll('span.ice-frame img');
-        createObserver();
-    },
-    false
-);
-
 // intersection observer function
 function createObserver() {
     let observer;
@@ -95,7 +85,15 @@ if (bodySet != '') {
     }
     else if (bodySet == 'ice') {
         paginaTor(bodySet,currPageCount,2);
-        // lazyLoad();
+        // Set things up, one window load create target object and call createObserver func
+        window.addEventListener(
+            "load",
+            (e) => {
+                lazyImages = document.querySelectorAll('span.ice-frame img');
+                createObserver();
+        },
+            false
+        );
     }
     else if (bodySet == 'izaak') {
         paginaTor(bodySet,currPageCount,4);
