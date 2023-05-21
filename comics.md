@@ -23,7 +23,7 @@ permalink: /comics/
           <a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ</strong></a>
         </div>
         <div class="col-12 col-lg-7 mb-4">
-          <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid" loading="lazy" width="1612" height="2400">
+          <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid" width="1612" height="2400">
         </div>
       </div>
           <hr class="mt-3">
@@ -42,13 +42,13 @@ permalink: /comics/
   </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="{{ "/images/v3/ice/5-steps-away-cover-3.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" loading="lazy" width="1612" height="2450">
+                  <img src="{{ "/images/v3/5-Steps-Away-3-864.jpeg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" width="864" height="1316">
               </div>
               <div class="carousel-item">
-                  <img src="{{ "/images/v3/ice/5-steps-away-cover-2.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" loading="lazy" width="1612" height="2450">
+                  <img src="{{ "/images/v3/5-Steps-Away-2-864.jpeg" | prepend: site.baseurl }}" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" width="864" height="1316">
               </div>
               <div class="carousel-item">
-                  <img src="{{ "/images/v3/ice/5-steps-away-cover-1.jpg" | prepend: site.baseurl }}" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" loading="lazy" width="1612" height="2450">
+                  <img src="{{ "/images/v3/5-Steps-Away-1-864.jpeg" | prepend: site.baseurl }}" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" width="864" height="1316">
               </div>
             </div>
           </div>
