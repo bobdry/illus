@@ -437,6 +437,11 @@ img.img-sidebar {
         border: 0 !important;
         border-radius: 1.5rem !important;
         margin: 0 0.5rem !important;
+        opacity: 0.3;
+}
+
+.carousel-indicators button.active {
+    opacity: 1.0;
 }
 
 @media (min-width:767px) {
