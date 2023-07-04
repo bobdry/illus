@@ -227,6 +227,15 @@ div.article-desc p {
     font-size: 1.125rem;
 }
 
+div.article-desc-ice > h1 {
+    margin: 0;
+    line-height: 2.5rem;
+}
+
+div.article-desc-ice > p {
+    margin: 0 0 1.25rem 0;
+}
+
 div.pagination p {
     line-height: 0.875rem;
     font-size: 1.5rem;

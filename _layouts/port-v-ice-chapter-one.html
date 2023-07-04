@@ -6,12 +6,12 @@ layout: default
   <div class="row g-0 row-cols-1 row-cols-lg-3">
     <div class="col-lg-3 bd-home-thumbs">
     <!-- deets -->
-    <div class="article-desc">
+    <div class="article-desc article-desc-ice">
       <h1 class="text-center w-100 ps-4 pe-4 ps-lg-2 pe-lg-3 ps-xl-4 pe-xl-4">{{ page.title | smartify }}</h1>
       <p class="text-center w-100 ps-4 pe-4 ps-lg-2 pe-lg-3 ps-xl-4 pe-xl-4">{{ page.description | smartify }}</p>
   </div>
-  <div class="pagination pagination-ice">
-    <p class="text-center w-100"><a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="no-paginator d-none d-md-block">Cover</a></p>
+  <div class="pagination pagination-ice d-none d-md-block">
+    <p class="text-center w-100"><a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="no-paginator">Cover</a></p>
   </div>
 
     </div>
