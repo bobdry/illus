@@ -264,76 +264,77 @@ div.pagination p span a.no-paginator {
     letter-spacing: 0.0625rem;
 }
 
-/* The animation code */
-@keyframes chapter-anim {
-    from {opacity: 0;}
-    to {opacity: 1;}
+div.pagination-ice {
+    flex-direction: column;
+}
+
+div.pagination-ice a, div.pagination-ice a:hover {
+    text-decoration: none;
 }
 
 /* ice */
 article.ice-chapter {
-    background: #000;
-    color: #fff;
+    background: #111;
+    border: 1px rgba(0,228,255,1) solid;
+    color: rgba(0,228,255,1);
     display: flex;
     flex-direction: column;
     font-size: 0.875rem;
     justify-content: center;
-    margin: 0 0.1875rem 1.0rem 0.1875rem;
-    min-height: 8.0rem;
+    margin: 0 0 1.25rem 0;
+    min-height: 6.0rem;
     text-align: center;
     opacity: 1;
-    animation-name: chapter-anim;
-    animation-duration: 1.0s;
 }
 
 article.ice-chapter h2 {
-    font-size: 4.0rem;
-    margin: 0.25rem 0 5.0rem 0;
-}
-
-article.ice-chapter p {
-    margin: 3.0rem 0 0 0;
-    line-height: 2.125rem;
-    letter-spacing: 0.25rem;
-}
-
-article.ice-chapter p span {
-    font-size: 2.25rem;
-    display: block;
-}
-
-@media (min-width:576px) {
-    article.ice-chapter {min-height: 9.0rem;} 
-}
-@media (min-width:767px) {
-    article.ice-chapter {min-height:12.0rem;} 
-    article.ice-chapter p {margin: 2.0rem 0 0 0;}
+    font-size: 2.0rem;
+    margin: 0;
 }
 @media (min-width:992px) {
-    article.ice-chapter h2 {font-size: 4.0rem;line-height: 4.0rem;margin: 0 0 2.0rem 0;}
-    article.ice-chapter p {line-height: 2.0rem;}
-    article.ice-chapter p span {font-size: 2.0rem;}
-    article.ice-chapter {min-height: 18.0rem; font-size: 1.25rem;}
+    article.ice-chapter {min-height: 7.0rem;}
+    article.ice-chapter h2 {font-size: 3.0rem;}
 }
 
-article.ice-page img {
-    background: #fff;
-    margin: 0 0 0.625rem 0;
-}
 /* lazy img */
 article.ice-page span.ice-frame {
-	opacity:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-article.ice-page span.ice-frame.loaded {
-    opacity: 1;
-    animation-name: chapter-anim;
-    animation-duration: 0.3s;
+article.ice-page span.ice-frame img {
+    background: #dedede;
+    margin: 0;
+    border: 1px #00e4ff solid;
 }
 article.ice-page p {
-    margin: 0 1.0rem 0.75rem 1.0rem;
+    margin: 0 0 1.25rem 0;
     text-align: center;
     line-height: 1.25rem;
-    color: #555;
+    color: #333;
+    background: rgba(0,228,255,.1);
+    border: 1px rgba(0,228,255,.25) solid;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    width: 100%;
+}
+
+@media (min-width:767px) {
+    article.ice-page span.ice-frame img {
+        margin: 0 0 0.5rem 0;
+    }
+    article.ice-page p {
+        margin: 0 0 1.25rem 0;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        width: auto;
+    }
+}
+
+@media (min-width:1200px) {
+    article.ice-page p.ice-mx-xl-70 {
+        max-width: 70%;
+    }
 }
 
 /* contact page */

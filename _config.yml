@@ -1,6 +1,6 @@
 title: bobdry.com
 email: bobdry@gmail.com
-description: portfolio website for my fancy drawings
+description: Draw me something.
 baseurl: /illus/
 url: ""
 
@@ -31,7 +31,7 @@ collections:
   crown:
     output: true
     permalink: :collection/:name
-  hatch:
+  five:
     output: true
     permalink: :collection/:name
   hero:

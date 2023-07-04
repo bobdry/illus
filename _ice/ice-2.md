@@ -1,7 +1,7 @@
 ---
 portfolio: ice
 title:  "Ice in the Shadows"
-description: ""
+description: "A Web comic."
 content: ""
 layout: port-v-ice-chapter-one
 set: ice

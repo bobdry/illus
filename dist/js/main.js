@@ -36,34 +36,6 @@ var paginaTor = function(set,curr,tots) {
     }
 }
 
-// intersection observer function
-function createObserver() {
-    let observer;
-
-    let options = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0.5,
-    };
-
-    observer = new IntersectionObserver(handleIntersect, options);
-    lazyImages.forEach(img => {
-        // observer.observe(img);
-        // if (!img.complete) {
-            img.addEventListener('load', observer.observe(img), false);
-        // }  
-    });
-}
-
-// function observer call when intersection occurs
-function handleIntersect(entries) {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.parentElement.classList.add('loaded');
-        }
-    })
-}
-
 if (bodySet != '') {
     if (bodySet == 'campbell') {
         paginaTor(bodySet,currPageCount,4);
@@ -77,7 +49,7 @@ if (bodySet != '') {
     else if (bodySet == 'guada') {
         paginaTor(bodySet,currPageCount,4);
     }
-    else if (bodySet == 'hatch') {
+    else if (bodySet == 'five') {
         paginaTor(bodySet,currPageCount,3);
     }
     else if (bodySet == 'hero') {
@@ -85,15 +57,6 @@ if (bodySet != '') {
     }
     else if (bodySet == 'ice') {
         paginaTor(bodySet,currPageCount,2);
-        // Set things up, one window load create target object and call createObserver func
-        window.addEventListener(
-            "load",
-            (e) => {
-                lazyImages = document.querySelectorAll('span.ice-frame img');
-                createObserver();
-        },
-            false
-        );
     }
     else if (bodySet == 'izaak') {
         paginaTor(bodySet,currPageCount,4);
