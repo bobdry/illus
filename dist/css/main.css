@@ -277,7 +277,7 @@ div.pagination-ice {
     flex-direction: column;
 }
 
-div.pagination-ice a, div.pagination-ice a:hover {
+div.pagination-ice a, div.pagination-ice a:hover, article.ice-page span.ice-chapter-paging a, article.ice-page span.ice-chapter-paging a:hover {
     text-decoration: none;
 }
 
@@ -328,6 +328,15 @@ article.ice-page p {
     width: 100%;
 }
 
+article.ice-page span.ice-chapter-paging {
+    display: block;
+    font-size: 1.0rem;
+}
+
+article.ice-page span.ice-chapter-paging.link-disabled {
+    color: #ababab;
+}
+
 @media (min-width:767px) {
     article.ice-page span.ice-frame img {
         margin: 0 0 0.5rem 0;
@@ -337,6 +346,10 @@ article.ice-page p {
         text-align: center;
         padding: 0.5rem 1rem;
         width: auto;
+    }
+    article.ice-page span.ice-chapter-paging {
+        display: block;
+        font-size: 1.25rem;
     }
 }
 

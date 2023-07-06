@@ -12,7 +12,7 @@ permalink: /about/
     </div>
     <div class="col-lg-7">
     <div class="chat">
-    <h1>Draw me something</h1>
+    <h1>Draw me something.</h1>
     <hr class="order-hr">
     <p>Wolverine #1 came out in 1988. I was 11. We were moving from Greensboro to Lumberton and my mom needed something to keep me entertained on the trips back and forth. John Buscema&rsquo;s art did a really good job.</p>
     <p class="mt-4">I started reading comics and drawing for real back then. Went to design school, worked for a printer, an ad agency, some higher ed and some tech companies. All the while my passion has remained drawing pictures in a sequence to tell stories.</p>

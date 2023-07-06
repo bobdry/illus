@@ -10,9 +10,6 @@ layout: default
       <h1 class="text-center w-100 ps-4 pe-4 ps-lg-2 pe-lg-3 ps-xl-4 pe-xl-4">{{ page.title | smartify }}</h1>
       <p class="text-center w-100 ps-4 pe-4 ps-lg-2 pe-lg-3 ps-xl-4 pe-xl-4">{{ page.description | smartify }}</p>
   </div>
-  <div class="pagination pagination-ice d-none d-md-block">
-    <p class="text-center w-100"><a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="no-paginator">Cover</a></p>
-  </div>
 
     </div>
     <div class="col-lg-9">
@@ -144,6 +141,12 @@ layout: default
               <img src="../images/v3/ice/p4-f4.jpg" class="img-fluid" alt="page 4, frame 4" loading="lazy" width="2400" height="880">
               <p>Scruffy fella says, &ldquo;Sure buddy. Hey, got a question for ya.&rdquo;</p>
             </span>
+          </div>
+          <div class="col-6">
+            <span class="ice-chapter-paging text-start"><a href="{{ "ice/ice-1.html" | prepend: site.baseurl }}" class="no-paginator">&laquo; Cover</a></span>
+          </div>
+          <div class="col-6">
+            <span class="ice-chapter-paging text-end link-disabled">2: MicroMacroAggressions &raquo;</span>
           </div>
         </div>
       </article>
