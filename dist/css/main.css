@@ -229,11 +229,17 @@ div.article-desc p {
 
 div.article-desc-ice > h1 {
     margin: 0;
-    line-height: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
 }
 
 div.article-desc-ice > p {
     margin: 0 0 1.25rem 0;
+}
+
+@media (min-width:1200px) {
+    div.article-desc-ice > h1 {font-size: 2.25rem;line-height: 2.375rem;}
+    div.article-desc-ice > p {margin: 0.3125rem 0 1.25rem 0;}
 }
 
 div.pagination p {
