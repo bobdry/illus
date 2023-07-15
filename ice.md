@@ -5,4 +5,5 @@ description: "A Web comic."
 imgSrc: "../images/v3/ice/ice-cover.jpg"
 layout: port-v-ice-home
 set: ice
+permalink: /ice/
 ---
