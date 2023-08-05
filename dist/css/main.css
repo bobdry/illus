@@ -319,7 +319,10 @@ article.ice-page span.ice-frame {
 }
 article.ice-page span.ice-frame img {
     background: #dedede;
-    margin: 0;
+    background-image: url(/illus/images/v3/rings.svg);
+    background-size: 7rem 7rem;
+    background-repeat: no-repeat;
+    background-position: center;
     border: 1px #00e4ff solid;
 }
 article.ice-page p {
