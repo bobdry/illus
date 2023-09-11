@@ -328,7 +328,7 @@ article.ice-page span.ice-frame img {
 article.ice-page p {
     margin: 0 0 1.25rem 0;
     text-align: center;
-    line-height: 1.25rem;
+    line-height: 1.375rem;
     color: #333;
     background: rgba(0,228,255,.1);
     border: 1px rgba(0,228,255,.25) solid;
@@ -342,7 +342,7 @@ article.ice-page span.ice-chapter-paging {
     font-size: 1.0rem;
 }
 
-article.ice-page span.ice-chapter-paging.link-disabled {
+span.link-disabled {
     color: #ababab;
 }
 
@@ -363,6 +363,10 @@ article.ice-page span.ice-chapter-paging.link-disabled {
 }
 
 @media (min-width:1200px) {
+    article.ice-page p {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
     article.ice-page p.ice-mx-xl-70 {
         max-width: 70%;
     }
