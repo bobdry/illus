@@ -172,13 +172,14 @@ footer p {
     font-size: 0.875rem;
 }
 footer > p > a.bd-icons {
-    border-radius: 3.5rem;
-    margin: 0 1rem;
     height: 7rem;
-    width: 7rem;
+    width: 6.25rem;
     display: inline-block;
     background: #fff;
     transition: .15s;
+}
+footer > p > a.bd-icons:nth-child(2) {
+    margin: 0 0.25rem;
 }
 footer > p > a.bd-icons:hover {
     background: #fff;
@@ -187,7 +188,7 @@ footer > p > a.bd-icons:first-of-type:hover {
     background: #fff;
 }
 footer > p > a.bd-icons svg {
-    width: 5.0rem;
+    width: 5.25rem;
     height: 5.0rem;
     fill: #888;
     margin-top: 1.625rem;
@@ -198,6 +199,9 @@ footer > p > a.bd-icons:first-child svg {
 }
 footer > p > a.bd-icons:hover svg {
     fill: #00e4ff;
+}
+footer > p > a.bd-icons:nth-child(2):hover svg {
+    fill: #32014e;
 }
 footer > p > a.bd-icons:first-of-type:hover svg {
     fill: #fd348e;
@@ -213,6 +217,7 @@ footer p:last-child {
     footer {margin: 8rem auto 0 auto;max-width: 26.0rem;}
     footer p {font-size: 1.125rem;} 
     footer > p > a.bd-icons {background: #fff;}
+    footer > p > a.bd-icons:nth-child(2) {margin: 0 1.5rem;}
     footer > p > a.bd-icons:hover {
         background: #fff;
     }
