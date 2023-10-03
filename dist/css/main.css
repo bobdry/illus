@@ -220,6 +220,10 @@ footer p:last-child {
 
 /* page nav */
 
+div.article-desc h1 > span {
+    font-size: 3.375rem;
+}
+
 div.article-desc p {
     font-size: 1.125rem;
 }
@@ -321,7 +325,7 @@ article.ice-page span.ice-frame {
     align-items: center;
 }
 article.ice-page span.ice-frame img {
-    background: #dedede;
+    background: #010c0e;
     background-image: url(/illus/images/v3/rings.svg);
     background-size: 7rem 7rem;
     background-repeat: no-repeat;
