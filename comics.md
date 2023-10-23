@@ -7,7 +7,7 @@ permalink: /comics/
   <div class="row g-0 row-cols-1 row-cols-lg-3">
     <div class="col-lg-4 bd-home-thumbs">
         <p class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
-        <img src="../images/v3/my_wolvie.jpg" class="img-fluid img-sidebar" loading="lazy" width="578" height="800">
+        <img src="../images/v3/my_wolvie.jpg" class="img-fluid img-sidebar-wolvie" loading="lazy" width="578" height="800">
         </p>
     </div>
     <div class="col-lg-7">
@@ -19,7 +19,7 @@ permalink: /comics/
     <div class="row">
         <div class="col-12 col-lg-5">
           <h3>Ice in the Shadows</h3>
-          <p>The Kingdom family is returning home to Cincinnati after a nice Christmas weekend with Wilson&rsquo;s parents. About half way, someone needs to pee. They find an exit. Wilson insists, this will be a quick pitstop and then back on the road.</p>
+          <p>The Kingdom family is returning home to Cincinnati after a nice Christmas weekend with Wilson&rsquo;s parents. About half way, someone needs to potty. They find an exit. Wilson insists, this will be a quick pitstop and then back on the road.</p>
           <a href="{{ "ice/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ</strong></a>
         </div>
         <div class="col-12 col-lg-7 mb-4">

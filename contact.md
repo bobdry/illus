@@ -14,7 +14,12 @@ permalink: /contact/
     <div class="chat">
     <h1>Let&rsquo;s chat.</h1>
     <hr class="order-hr">
+    <p>Or buy some comics :)</p>
     <form action="https://formspree.io/f/mzbodday" method="POST">
+      <label>
+        Name:
+        <input type="text" name="name"  class="mt-2 mb-4 p-2" required>
+      </label>
       <label>
         Email:
         <input type="email" name="_replyto"  class="mt-2 mb-4 p-2" required>
