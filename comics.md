@@ -1,5 +1,7 @@
 ---
 layout: page
+title:  "Comics!"
+description: "I do love comics."
 set: comics
 permalink: /comics/
 ---

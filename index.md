@@ -1,5 +1,7 @@
 ---
 layout: default
+title:  "Home"
+description: "Ice in the Shadows"
 set: home
 ---
 

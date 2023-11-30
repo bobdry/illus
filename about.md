@@ -1,5 +1,7 @@
 ---
 layout: page
+title:  "About"
+description: "Draw me something."
 set: about
 permalink: /about/
 ---

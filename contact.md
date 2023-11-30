@@ -1,5 +1,7 @@
 ---
 layout: page
+title:  "Contact"
+description: "Let's chat."
 set: contact
 permalink: /contact/
 ---
