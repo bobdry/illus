@@ -89,14 +89,24 @@ div.bd-container {
     margin-top: 5.0rem;
 }
 
+body.ice > div.bd-container > div.bd-row > div.col {
+    padding-right: calc(var(--bs-gutter-x) * .25);
+    padding-left: calc(var(--bs-gutter-x) * .25);
+}
+
 @media (min-width:576px) {
-    div.bd-container {margin-top: 6.0rem;} 
+    div.bd-container {margin-top: 6.0rem;max-width: none;}
+}
+@media (min-width:767px) {
 }
 @media (min-width:992px) {
     div.bd-container {margin-top: 7.0rem;}
 }
 @media (min-width:1200px) {
     div.bd-container {margin-top: 8.0rem;}
+}
+@media (min-width:1400px) {
+    div.bd-container {margin-top: 8.0rem; max-width: 1320px;}
 }
 
 
