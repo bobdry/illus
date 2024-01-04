@@ -21,11 +21,13 @@ permalink: /comics/
     <div class="row">
         <div class="col-12 col-lg-5">
           <h3>Ice in the Shadows</h3>
-          <p>The Kingdom family is returning home to Cincinnati after a nice Christmas weekend with Wilson&rsquo;s parents. About half way, someone needs to potty. They find an exit. Wilson insists, this will be a quick pitstop and then back on the road.</p>
+          <p>The Kingdom family is returning home to Cincinnati after a nice Christmas weekend with Wilson&rsquo;s parents. About half way, someone needs to pee. They find an exit. Wilson insists, this will be a quick pitstop and then back on the road they must go.</p>
           <a href="{{ "ice/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ</strong></a>
         </div>
         <div class="col-12 col-lg-7 mb-4">
-          <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid" width="1612" height="2400">
+          <a href="{{ "ice/" | prepend: site.baseurl }}">
+            <img src="{{ "/images/v3/ice/ice-cover.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid" width="1612" height="2400">
+          </a>
         </div>
       </div>
           <hr class="mt-3">
