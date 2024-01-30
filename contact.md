@@ -16,7 +16,6 @@ permalink: /contact/
     <div class="chat">
     <h1>Let&rsquo;s chat.</h1>
     <hr class="order-hr">
-    <p>Or buy some comics :)</p>
     <form action="https://formspree.io/f/mzbodday" method="POST">
       <label>
         Name:
@@ -30,7 +29,6 @@ permalink: /contact/
         Message:
         <textarea name="message" class="mt-2 p-2" required></textarea>
       </label>
-      <!-- your other form fields go here -->
       <button type="submit" class="mt-4"><strong>SEND</strong></button>
     </form>
     </div>
