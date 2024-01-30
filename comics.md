@@ -29,7 +29,7 @@ permalink: /comics/
           <a href="{{ "ice/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ</strong></a>
         </div>
         <div class="col-12 col-lg-6">
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide mt-4 mt-lg-0" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -69,11 +69,11 @@ permalink: /comics/
             </div>
             <div class="col-6">
               <select class="order-comics-quantity" name="5-steps-away-1" required>
-                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
-                  <option value="4">4</option>
+                  <option value="4">4 - max</option>
+                  <option value="0">0 - already have this issue</option>
               </select>
             </div>
             <div class="col-6">
@@ -81,11 +81,11 @@ permalink: /comics/
             </div>
             <div class="col-6">
               <select class="order-comics-quantity" name="5-steps-away-2" required>
-                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
-                  <option value="4">4</option>
+                  <option value="4">4 - max</option>
+                  <option value="0">0 - already have this issue</option>
               </select>
             </div>
             <div class="col-6">
@@ -93,15 +93,15 @@ permalink: /comics/
             </div>
             <div class="col-6">
               <select class="order-comics-quantity" name="5-steps-away-3" required>
-                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
-                  <option value="4">4</option>
+                  <option value="4">4 - max</option>
+                  <option value="0">0 - already have this issue</option>
               </select>
             </div>
           </div>
-           <p>Issues arrive polybagged and signed by the artist.</p>
+           <p>Each issue is $3.99. Issues arrive polybagged and signed by the artist.</p>
         </div>
         <div class="col-12 col-lg-6 order-first order-lg-last">
           <img src="{{ "/images/v3/polybag.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid mb-2 polybag-mt" width="732" height="600">
