@@ -9,7 +9,7 @@ permalink: /comics/
   <div class="row g-0 row-cols-1 row-cols-lg-3">
     <div class="col-lg-4 bd-home-thumbs">
         <p class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
-        <img src="../images/v3/my_wolvie.jpg" class="img-fluid img-sidebar-wolvie" loading="lazy" width="578" height="800">
+        <img src="/images/v3/my_wolvie.jpg" class="img-fluid img-sidebar-wolvie" loading="lazy" width="578" height="800">
         </p>
     </div>
     <div class="col-lg-7">
@@ -20,13 +20,13 @@ permalink: /comics/
     <hr class="mt-4">
     <div class="row">
         <div class="col-12 col-lg-6">
-          <a href="{{ "ice/" | prepend: site.baseurl }}">
-            <img src="{{ "/images/v3/ice-864.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid" width="864" height="1316">
+          <a href="/ice/">
+            <img src="/images/v3/ice-864.jpg" alt="Ice in the Shadows image" class="img-fluid" width="864" height="1316">
           </a>
           <h3 class="mt-3 mb-0">Ice in the Shadows</h3>
           <p class="mb-2"><em>A Web comic</em></p>
           <p>The Kingdom family is returning home to Cincinnati after a nice Christmas weekend with Wilson&rsquo;s parents. About half way, someone needs a potty break. They find an exit. Wilson insists, this will be a quick pitstop and then back on the road they will go.</p>
-          <a href="{{ "ice/" | prepend: site.baseurl }}" class="button-bd me-3 mb-3"><strong>READ</strong></a>
+          <a href="/ice/" class="button-bd me-3 mb-3"><strong>READ</strong></a>
         </div>
         <div class="col-12 col-lg-6">
           <div id="carouselExampleIndicators" class="carousel slide mt-4 mt-lg-0" data-bs-ride="carousel">
@@ -37,13 +37,13 @@ permalink: /comics/
             </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ "/images/v3/5-Steps-Away-3-864.jpeg" | prepend: site.baseurl }}" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" width="864" height="1316">
+                    <img src="/images/v3/5-Steps-Away-3-864.jpeg" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" width="864" height="1316">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ "/images/v3/5-Steps-Away-2-864.jpeg" | prepend: site.baseurl }}" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" width="864" height="1316">
+                    <img src="images/v3/5-Steps-Away-2-864.jpeg" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" width="864" height="1316">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ "/images/v3/5-Steps-Away-1-864.jpeg" | prepend: site.baseurl }}" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" width="864" height="1316">
+                    <img src="/images/v3/5-Steps-Away-1-864.jpeg" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" width="864" height="1316">
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ permalink: /comics/
            <p>Each issue is $3.99. Issues arrive polybagged and signed by the artist.</p>
         </div>
         <div class="col-12 col-lg-6 order-first order-lg-last">
-          <img src="{{ "/images/v3/polybag.jpg" | prepend: site.baseurl }}" alt="Ice in the Shadows image" class="img-fluid mb-2 polybag-mt" width="732" height="600">
+          <img src="/images/v3/polybag.jpg" alt="Ice in the Shadows image" class="img-fluid mb-2 polybag-mt" width="732" height="600">
         </div>
       </div>
         <fieldset id="fs-frm-inputs">
@@ -188,7 +188,7 @@ permalink: /comics/
             </div>
           </fieldset>
         </fieldset>
-        <p class="mt-4"><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. For international shipping please <a href="{{ "contact/" | prepend: site.baseurl }}">submit a request</a> with location details.</p>
+        <p class="mt-4"><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. For international shipping please <a href="contact/">submit a request</a> with location details.</p>
         <button type="submit" class="mt-4"><strong>NEXT</strong></button>
         <p class="ms-4"><em>Step <strong>1</strong> of <strong>2</strong></em></p>
       </form>
