@@ -188,7 +188,7 @@ permalink: /comics/
             </div>
           </fieldset>
         </fieldset>
-        <p class="mt-4"><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. For international shipping please <a href="contact/">submit a request</a> with location details.</p>
+        <p class="mt-4"><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. For international shipping please <a href="/contact/">submit a request</a> with location details.</p>
         <button type="submit" class="mt-4"><strong>NEXT</strong></button>
         <p class="ms-4"><em>Step <strong>1</strong> of <strong>2</strong></em></p>
       </form>
