@@ -55,9 +55,6 @@ if (bodySet != '') {
     else if (bodySet == 'hero') {
         paginaTor(bodySet,currPageCount,4);
     }
-    else if (bodySet == 'ice') {
-        paginaTor(bodySet,currPageCount,2);
-    }
     else if (bodySet == 'izaak') {
         paginaTor(bodySet,currPageCount,4);
     }

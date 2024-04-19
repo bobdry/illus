@@ -306,13 +306,14 @@ body.ice {
 }
 
 article.ice-chapter {
+    align-items: center;
     background: #010c0e;
     border: 1px rgba(0,228,255,1) solid;
     color: rgba(0,228,255,1);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 0.875rem;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 0 1.25rem 0;
     min-height: 6.0rem;
     text-align: center;
@@ -323,9 +324,34 @@ article.ice-chapter h2 {
     font-size: 2.0rem;
     margin: 0;
 }
+article.ice-chapter a, article.ice-chapter span {
+    display: flex;
+    padding: 0.25rem;
+    width: 3.0rem;
+}
+article.ice-chapter a svg {
+    fill: rgba(0, 228, 255, 1);
+    height: 2.5rem;
+    width: 2.5rem;
+}
+article.ice-chapter a:hover svg {
+    fill: #fff;
+}
+article.ice-chapter span svg {
+    fill: #777;
+}
 @media (min-width:992px) {
     article.ice-chapter {min-height: 7.0rem;}
     article.ice-chapter h2 {font-size: 3.0rem;}
+    article.ice-chapter a, article.ice-chapter span {
+        padding: 0.5rem;
+        width: 4.0rem;
+    }
+    article.ice-chapter a svg {
+        fill: rgba(0, 228, 255, 1);
+        height: 3.0rem;
+        width: 3.0rem;
+    }
 }
 
 article.ice-page > .row {
