@@ -324,7 +324,7 @@ article.ice-chapter h2 {
     font-size: 2.0rem;
     margin: 0;
 }
-article.ice-chapter a, article.ice-chapter span {
+article.ice-chapter a {
     display: flex;
     padding: 0.25rem;
     width: 3.0rem;
@@ -337,8 +337,8 @@ article.ice-chapter a svg {
 article.ice-chapter a:hover svg {
     fill: #fff;
 }
-article.ice-chapter span svg {
-    fill: #777;
+article.ice-chapter span {
+    width: 3.5rem;
 }
 @media (min-width:992px) {
     article.ice-chapter {min-height: 7.0rem;}
@@ -351,6 +351,9 @@ article.ice-chapter span svg {
         fill: rgba(0, 228, 255, 1);
         height: 3.0rem;
         width: 3.0rem;
+    }
+    article.ice-chapter span {
+        width: 4.5rem;
     }
 }
 
