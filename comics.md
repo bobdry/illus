@@ -101,7 +101,7 @@ permalink: /comics/
               </select>
             </div>
           </div>
-           <p>Each issue is $3.99. Issues arrive polybagged and signed by the artist.</p>
+           <p>Each issue is $3.99. Issues arrive polybagged and signed by Bob.</p>
         </div>
         <div class="col-12 col-lg-6 order-first order-lg-last">
           <img src="/images/v3/polybag.jpg" alt="Ice in the Shadows image" class="img-fluid mb-2 polybag-mt" width="732" height="600">
