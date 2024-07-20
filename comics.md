@@ -37,13 +37,13 @@ permalink: /comics/
             </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/images/v3/5-Steps-Away-3-864.jpeg" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" width="864" height="1316">
+                    <img src="/images/v3/five/5-Steps-Away-3-2400.jpg" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" width="864" height="1316">
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/v3/5-Steps-Away-2-864.jpeg" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" width="864" height="1316">
+                    <img src="/images/v3/five/5-Steps-Away-2-2400.jpg" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" width="864" height="1316">
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/v3/5-Steps-Away-1-864.jpeg" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" width="864" height="1316">
+                    <img src="/images/v3/five/5-Steps-Away-1-2400.jpg" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" width="864" height="1316">
                 </div>
               </div>
             </div>
