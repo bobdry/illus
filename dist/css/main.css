@@ -19,7 +19,9 @@ body strong {
 h1 {
     line-height: 2.75rem;
 }
-
+img.comic-rad {
+    border-radius: 0.25rem;
+}
 
 /*********** nav *************/
 
@@ -327,15 +329,31 @@ article.ice-chapter h2 {
 article.ice-chapter a {
     display: flex;
     padding: 0.25rem;
-    width: 3.0rem;
+    width: 3.5rem;
 }
 article.ice-chapter a svg {
     fill: rgba(0, 228, 255, 1);
     height: 2.5rem;
     width: 2.5rem;
 }
+a.ice-home-fund {
+    display: block;
+    text-align: center;
+}
+a.ice-home-fund svg {
+    fill: #0d6efd;;
+    height: 6.0rem;
+    width: 6.0rem;
+}
+article.ice-chapter a:last-of-type svg {
+    margin-top: 0.25rem;
+    width: 3.0rem;
+}
 article.ice-chapter a:hover svg {
     fill: #fff;
+}
+a.ice-home-fund:hover svg {
+    fill: #0a58ca;
 }
 article.ice-chapter span {
     width: 3.5rem;
@@ -345,12 +363,20 @@ article.ice-chapter span {
     article.ice-chapter h2 {font-size: 3.0rem;}
     article.ice-chapter a, article.ice-chapter span {
         padding: 0.5rem;
-        width: 4.0rem;
+        width: 4.75rem;
+    }
+    article.ice-chapter a:last-of-type {
+        width: 5.0rem;
     }
     article.ice-chapter a svg {
         fill: rgba(0, 228, 255, 1);
         height: 3.0rem;
         width: 3.0rem;
+    }
+    article.ice-chapter a:last-of-type svg {
+        height: 4.0rem;
+        margin: 0.5rem 0.25rem 0 0;
+        width: 5.0rem;
     }
     article.ice-chapter span {
         width: 4.5rem;
@@ -438,7 +464,7 @@ div.chat label {
 div.chat p {
     font-size: 1.25rem;
     line-height: 2.0rem;
-    max-width: 40.0rem;
+    max-width: 42.0rem;
 }
 
 div.chat label input, div.chat label textarea {
@@ -451,7 +477,7 @@ div.chat label textarea {
 }
 
 
-div.chat button, div.chat a.button-bd {
+div.chat button, a.button-bd {
     display: block;
     width: 9rem;
     padding: 0.5rem 0;
@@ -463,7 +489,7 @@ div.chat button, div.chat a.button-bd {
     border-radius: 2.0rem;
 }
 
-div.chat a.button-bd {
+a.button-bd {
     width: auto;
     display: inline-block;
     padding: 0.375rem 1.25rem 0.5rem 1.25rem;
@@ -472,17 +498,17 @@ div.chat a.button-bd {
     font-size: 1.5rem;
 }
 
-div.chat button:hover, div.chat a.button-bd:hover {
+div.chat button:hover, a.button-bd:hover {
     background: #32014e;
     color: #fff;
 }
 
-div.chat a.button-bd.dead {
+a.button-bd.dead {
     background: #ddd;
     color: #777;
 }
 
-div.chat a.button-bd.dead:hover {
+a.button-bd.dead:hover {
     background: #ddd;
     color: #777;
 }
@@ -497,13 +523,13 @@ div.chat a.button-bd.dead:hover {
     div.chat label input, div.chat label textarea {
         width: 36.0rem;
     }
-    div.chat a.button-bd {
+    a.button-bd {
         font-size: 1.25rem;
     }
 }
 
 @media (min-width:1200px) {
-    div.chat a.button-bd {
+    a.button-bd {
         font-size: 1.5rem;
     }
 }
@@ -511,6 +537,7 @@ div.chat a.button-bd.dead:hover {
 img.img-sidebar {
     border-top: 0.5rem #00e4ff solid;
     border-bottom: 0.5rem #fd348e solid;
+    max-width: 24.0rem;
 }
 
 img.img-sidebar-mug {
@@ -520,6 +547,17 @@ img.img-sidebar-mug {
 img.img-sidebar-wolvie {
     border-top: 0.5rem #f8d831 solid;
     border-bottom: 0.5rem #f0304e solid;
+}
+
+div.wolvie {
+    text-align: center;
+}
+
+div.wolvie img {
+    border-top: .5rem #f8d831 solid;
+    border-bottom: .5rem #f0304e solid;
+    margin: 0.5rem 0;
+    max-width: 24.0rem;
 }
 
 .carousel-indicators {
@@ -557,6 +595,23 @@ img.img-sidebar-wolvie {
         border-radius: 0.75rem !important;
         margin: 0 0.25rem !important;
     }
+    img.img-sidebar {
+        max-width: 28.0rem;
+    }
+    div.wolvie {
+        margin: -0.5rem 0 0 0;
+    }
+    div.wolvie img {
+        float: right;
+        margin: 1.0rem -1.5rem 1.0rem 1.0rem;
+        max-width: 15.0rem;
+        transform: rotate(0deg);
+    }
+}
+@media (min-width:992px) {
+    img.img-sidebar {
+        max-width: 100%;
+    }
 }
 @media (min-width:1200px) {
     .carousel-indicators {
@@ -564,12 +619,21 @@ img.img-sidebar-wolvie {
         z-index: 3;
         margin-right: 2.0rem;
     }
+    div.wolvie img {
+        max-width: 16.0rem;
+    }
+}
+@media (min-width:1400px) {
+    div.wolvie img {
+        max-width: 18.0rem;
+        transform: rotate(8deg);
+    }
 }
 
 /*** order comics ***/
 select.order-comics-quantity {
-    font-size: 1.375rem;
-    width: 5.0rem;
+    font-size: 1.125rem;
+    width: 10.0rem;
 }
 .order-comics-locale {
     font-size: 1.375rem;
@@ -598,4 +662,21 @@ img.polybag-mt {
     img.polybag-mt {
         margin-top: -2.5rem;
     }
+}
+
+form#fs-frm {
+    background: #f2f2f2;
+    border: 0.0625rem solid #bbb;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+}
+
+a.order-form-drops {
+    text-decoration: none;
+}
+
+a.order-form-drops svg {
+    margin: 0 0 0.25rem 0;
+    width: 1.25rem;
+    height: 1.25rem;
 }

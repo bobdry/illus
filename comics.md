@@ -9,7 +9,7 @@ permalink: /comics/
   <div class="row g-0 row-cols-1 row-cols-lg-3">
     <div class="col-lg-4 bd-home-thumbs">
         <p class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
-        <img src="/images/v3/my_wolvie.jpg" class="img-fluid img-sidebar-wolvie" loading="lazy" width="578" height="800">
+        <img src="/images/v3/my_batman.jpg" class="img-fluid img-sidebar img-sidebar-mug" loading="lazy" width="578" height="800">
         </p>
     </div>
     <div class="col-lg-7">
@@ -56,7 +56,7 @@ permalink: /comics/
       <h3 class="mt-3">Order Comics</h3>
       <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/meqyewwd" method="post">
       <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12">
           <div class="row">
             <div class="col-6">
               <p class="mb-1"><em>Issue</em></p>
@@ -103,9 +103,9 @@ permalink: /comics/
           </div>
            <p>Each issue is $3.99. Issues arrive polybagged and signed by Bob.</p>
         </div>
-        <div class="col-12 col-lg-6 order-first order-lg-last">
+        <!-- <div class="col-12 col-lg-6 order-first order-lg-last">
           <img src="/images/v3/polybag.jpg" alt="Ice in the Shadows image" class="img-fluid mb-2 polybag-mt" width="732" height="600">
-        </div>
+        </div> -->
       </div>
         <fieldset id="fs-frm-inputs">
           <label>
