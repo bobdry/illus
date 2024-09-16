@@ -556,7 +556,6 @@ div.wolvie img {
     border-top: .5rem #f8d831 solid;
     border-bottom: .5rem #f0304e solid;
     margin: 0.5rem 0;
-    max-width: 24.0rem;
 }
 
 .carousel-indicators {
@@ -582,6 +581,15 @@ div.wolvie img {
     opacity: 1.0;
 }
 
+@media (min-width:500px) {
+    img.img-sidebar {
+        max-width: 24.0rem;
+    }
+    div.wolvie img {
+        max-width: 24.0rem;
+    }
+}
+
 @media (min-width:767px) {
     .carousel-indicators {
         bottom: -4.0rem;
@@ -602,8 +610,8 @@ div.wolvie img {
     }
     div.wolvie img {
         float: right;
-        margin: 1.0rem -1.5rem 1.0rem 1.0rem;
-        max-width: 15.0rem;
+        margin: 1.0rem 0 1.0rem 1.0rem;
+        max-width: 18.0rem;
         transform: rotate(0deg);
     }
 }
@@ -624,6 +632,7 @@ div.wolvie img {
 }
 @media (min-width:1400px) {
     div.wolvie img {
+        margin: 1.0rem -1.5rem 1.0rem 1.0rem;
         max-width: 18.0rem;
         transform: rotate(8deg);
     }
