@@ -1,133 +1,164 @@
 ---
 layout: page
-title:  "Comics!"
+title:  "Comics"
 description: "I do love comics."
 set: comics
 permalink: /comics/
 ---
 
   <div class="row g-0 row-cols-1 row-cols-lg-3">
-    <div class="col-lg-4 bd-home-thumbs">
-        <p class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
-        <img src="/images/v3/my_batman.jpg" class="img-fluid img-sidebar img-sidebar-mug" loading="lazy" width="578" height="800">
-        </p>
+    <div class="col-lg-4 bd-home-thumbs order-last order-lg-first">
+        <div class="p-lg-4 pt-0 m-lg-4 mt-0 text-center">
+          <a href="/ice/">
+            <img src="/images/v3/ice-864.jpg" class="img-fluid comic-rad" loading="lazy" width="578" height="800">
+          </a>
+          <h3 class="mt-3 mb-0">Ice in the Shadows</h3>
+          <h5 class="mt-1 mb-3"><em>A Web comic</em></h5>
+          <a href="/ice/" class="button-bd me-3 mb-3"><strong>READ</strong></a>
+        </div>
     </div>
     <div class="col-lg-7">
     <div class="chat">
     <h1>Comics!</h1>
     <hr>
-    <p>I do love comics, so much so that I draw a couple of indie ones,<br> <strong>Ice in the Shadows</strong> and <strong>5 Steps Away</strong>.</p>
+    <p>Show Wilson some love. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> the 
+    Kingdom family&rsquo;s journey back home.</p>
+    <hr class="mt-4">
+    <div class="row">
+        <div class="col-12 col-lg-6 order-last order-lg-first">
+        <h3>Print issues</h3>
+          <p>
+            Signed and bagged issues of Ice in the Shadows <span style="font-size: 1.75rem;">#1</span> are now available. Yes, you can always read it for free on the Web, but the feel of the print issue is really nice. 
+          </p>
+          <p>
+            <a href="#order-form" class="order-form-drops">Order
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p><img src="/images/v3/ice/ice-print-issues.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
+        </div>
+    </div>
     <hr class="mt-4">
     <div class="row">
         <div class="col-12 col-lg-6">
-          <a href="/ice/">
-            <img src="/images/v3/ice-864.jpg" alt="Ice in the Shadows image" class="img-fluid" width="864" height="1316">
-          </a>
-          <h3 class="mt-3 mb-0">Ice in the Shadows</h3>
-          <p class="mb-2"><em>A Web comic</em></p>
-          <p>The Kingdom family is returning home to Cincinnati after a nice Christmas weekend with Wilson&rsquo;s parents. About half way, someone needs a potty break. They find an exit. Wilson insists, this will be a quick pitstop and then back on the road they will go.</p>
-          <a href="/ice/" class="button-bd me-3 mb-3"><strong>READ</strong></a>
+          <p><img src="/images/v3/ice/ice-sticker-packs.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
         </div>
         <div class="col-12 col-lg-6">
-          <div id="carouselExampleIndicators" class="carousel slide mt-4 mt-lg-0" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="/images/v3/five/5-Steps-Away-3-2400.jpg" alt="5 Steps Away #3 image" class="img-fluid d-block w-100" width="864" height="1316">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/v3/five/5-Steps-Away-2-2400.jpg" alt="5 Steps Away #2 image" class="img-fluid d-block w-100" width="864" height="1316">
-                </div>
-                <div class="carousel-item">
-                    <img src="/images/v3/five/5-Steps-Away-1-2400.jpg" alt="5 Steps Away #1 image" class="img-fluid d-block w-100" width="864" height="1316">
-                </div>
-              </div>
-            </div>
-          <h3 class="mt-3">5 Steps Away</h3>
-          <p>Joe and his friends are determined to realize the grand achievement of matter teleportation. Unfortunately though their experiments start having unexpected consequences. As the rest of the world takes notice their seclusion will only last so long.</p>
+          <h3>Sticker packs</h3>
+          <p>For your latop or maybe the inside of your mini van, Ice in the Shadows stickers come in packs of five.</p>
+          <p>
+            <a href="#order-form" class="order-form-drops">Order
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
+            </a>
+          </p>
+        </div>
+    </div>
+    <hr class="mt-4">
+      <div class="row">
+        <div class="col-12 col-lg-6 order-last order-lg-first">
+          <h3>Coffee</h3>
+          <p>Maybe physical merchandise isn&rsquo;t your thing. Buy me a cup of coffee instead.</p>
+          <p>
+            <a href="#order-form" class="order-form-drops">Order
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p><img src="/images/v3/ice/ice-coffee.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
         </div>
       </div>
       <!-- order form -->
-      <hr>
-      <h3 class="mt-3">Order Comics</h3>
-      <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/meqyewwd" method="post">
+      <hr class="mt-5" id="order-form">
+      <h2 class="mt-5 pt-3">Ice in the Shadows Order Form</h2>
+      <form class="mb-4" id="fs-frm" name="ice-order-form" accept-charset="utf-8" action="https://formspree.io/f/meqyewwd" method="post">
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="col-6">
-              <p class="mb-1"><em>Issue</em></p>
+            <div class="col-9">
+              <p class="mb-1"><em>Item</em></p>
             </div>
-            <div class="col-6">
+            <div class="col-3">
               <p class="mb-1"><em>Quantity</em></p>
             </div>
-            <div class="col-6">
-              <p>5 Steps Away #1</p>
+            <div class="col-9">
+              <p class="lh-sm"><strong>Ice in the Shadows #1 print issue</strong><br>
+              <small>$5 per issue</small></p>
             </div>
-            <div class="col-6">
-              <select class="order-comics-quantity" name="5-steps-away-1" required>
+            <div class="col-3">
+              <select class="order-comics" id="print-issue" name="print-issue" required>
+                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
-                  <option value="4">4 - max</option>
-                  <option value="0">0 - already have this issue</option>
+                  <option value="4">4 - issue max</option>
               </select>
             </div>
-            <div class="col-6">
-              <p>5 Steps Away #2</p>
+            <div class="col-9">
+              <p class="lh-sm"><strong>Sticker pack</strong><br>
+              <small>$5 per pack, 5 stickers in a pack</small></p>
             </div>
-            <div class="col-6">
-              <select class="order-comics-quantity" name="5-steps-away-2" required>
+            <div class="col-3">
+              <select class="order-comics" id="sticker-pack" name="sticker-pack" required>
+                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
-                  <option value="4">4 - max</option>
-                  <option value="0">0 - already have this issue</option>
+                  <option value="4">4 - pack max</option>
               </select>
             </div>
-            <div class="col-6">
-              <p>5 Steps Away #3</p>
+            <div class="col-9">
+              <p class="lh-sm"><strong>Buy me a coffee</strong><br>
+              <small>$5 cup, only the finest</small></p>
             </div>
-            <div class="col-6">
-              <select class="order-comics-quantity" name="5-steps-away-3" required>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4 - max</option>
-                  <option value="0">0 - already have this issue</option>
-              </select>
+            <div class="col-3">
+              <input type="checkbox" id="Coffee" name="Coffee" value="Coffee">
             </div>
           </div>
-           <p>Each issue is $3.99. Issues arrive polybagged and signed by Bob.</p>
         </div>
-        <!-- <div class="col-12 col-lg-6 order-first order-lg-last">
-          <img src="/images/v3/polybag.jpg" alt="Ice in the Shadows image" class="img-fluid mb-2 polybag-mt" width="732" height="600">
-        </div> -->
       </div>
+      <hr>
+      <div class="row">
+          <div class="col-9">
+              <p class="lh-sm"><strong>Shipping and handling</strong></p>
+          </div>
+          <div class="col-3">
+              <input class="order-comics" type="text" id="Shipping" name="Shipping" value="" readonly>
+          </div>
+      </div>
+      <hr>
+      <div class="row">
+          <div class="col-9">
+              <p class="lh-sm"><strong>TOTAL</strong></p>
+          </div>
+          <div class="col-3">
+              <input class="order-comics" type="text" id="Total" name="Total" value="" readonly>
+          </div>
+      </div>
+      <hr>
         <fieldset id="fs-frm-inputs">
-          <label>
-            Name:
-            <input type="text" name="name"  class="mt-2 mb-4" required>
+          <label for="name">
+            Customer Name:
+            <input type="text" id="name" name="name"  class="mt-2 mb-4" required>
           </label>
-          <label>
+          <label for="_replyto">
             Email:
-            <input type="email" name="_replyto"  class="mt-2 mb-4" required>
+            <input type="email" id="_replyto" name="_replyto"  class="mt-2 mb-4" required>
           </label>
           <label for="street-address">
             Street Address:
-            <input type="text" name="street" id="street-address" required>
+            <input type="text" id="street-address" name="street">
           </label>
           <fieldset class="locale">
             <legend class="mt-4">Locale:</legend>
             <div class="row">
-              <div class="col-12 col-lg-4 col-xl-3">
-                <input class="order-comics-locale mb-2" type="text" name="city" placeholder="City" required="">
+              <div class="col-12 col-lg-4">
+                <input class="order-comics-locale mb-2" type="text" id="city" name="city" placeholder="City">
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
-                <select  class="order-comics-locale mb-2" name="state" required="">
+              <div class="col-12 col-lg-4">
+                <select  class="order-comics-locale mb-2" id="state" name="state">
                   <option value="" selected="" disabled="">State</option>
                   <option value="AL">Alabama</option>
                   <option value="AK">Alaska</option>
@@ -182,13 +213,13 @@ permalink: /comics/
                   <option value="WY">Wyoming</option>
                 </select>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
-                <input class="order-comics-locale mb-2" type="text" name="postal-code" placeholder="12345" required="">
+              <div class="col-12 col-lg-4">
+                <input class="order-comics-locale mb-2" type="text" id="postal-code" name="postal-code" placeholder="12345">
               </div>
             </div>
           </fieldset>
         </fieldset>
-        <p class="mt-4"><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. For international shipping please <a href="/contact/">submit a request</a> with location details.</p>
+        <p class="mt-4 lh-sm"><small><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. All prices are in USD. For international orders and shipping please <a href="/contact/">submit a contact request</a> with location details.</small></p>
         <button type="submit" class="mt-4"><strong>NEXT</strong></button>
         <p class="ms-4"><em>Step <strong>1</strong> of <strong>2</strong></em></p>
       </form>

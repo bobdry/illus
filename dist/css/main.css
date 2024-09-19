@@ -327,33 +327,53 @@ article.ice-chapter h2 {
     margin: 0;
 }
 article.ice-chapter a {
+    align-items: center;
+    color: rgba(0, 228, 255, 1);
     display: flex;
-    padding: 0.25rem;
+    flex-direction: column;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: .25rem;
+    text-decoration: none;
     width: 3.5rem;
+}
+article.ice-chapter a:hover {
+    color: #fff;
+}
+article.ice-chapter a:last-of-type {
+    margin: 0 0.75rem 0 0;
 }
 article.ice-chapter a svg {
     fill: rgba(0, 228, 255, 1);
     height: 2.5rem;
     width: 2.5rem;
 }
+article.ice-chapter a:last-of-type svg {
+    height: 1.625rem;
+    margin-top: 0.25rem;
+    width: 2.0rem;
+}
+div.pagination-ice a:hover, a.ice-home-fund:hover  {
+    color: cyan;
+}
 a.ice-home-fund {
-    display: block;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
     text-align: center;
+    text-decoration: none;
 }
 a.ice-home-fund svg {
     fill: #0d6efd;;
-    height: 6.0rem;
-    width: 6.0rem;
-}
-article.ice-chapter a:last-of-type svg {
-    margin-top: 0.25rem;
-    width: 3.0rem;
+    height: 4.0rem;
+    width: 4.5rem;
 }
 article.ice-chapter a:hover svg {
     fill: #fff;
 }
 a.ice-home-fund:hover svg {
-    fill: #0a58ca;
+    fill: cyan;
 }
 article.ice-chapter span {
     width: 3.5rem;
@@ -366,6 +386,8 @@ article.ice-chapter span {
         width: 4.75rem;
     }
     article.ice-chapter a:last-of-type {
+        font-size: 1.0rem;
+        margin: 0 0.5rem 0 0;
         width: 5.0rem;
     }
     article.ice-chapter a svg {
@@ -374,9 +396,9 @@ article.ice-chapter span {
         width: 3.0rem;
     }
     article.ice-chapter a:last-of-type svg {
-        height: 4.0rem;
-        margin: 0.5rem 0.25rem 0 0;
-        width: 5.0rem;
+        height: 2.0rem;
+        margin: 0.5rem 0 0 0;
+        width: 2.5rem;
     }
     article.ice-chapter span {
         width: 4.5rem;
@@ -521,7 +543,7 @@ a.button-bd.dead:hover {
 
 @media (min-width:767px) {
     div.chat label input, div.chat label textarea {
-        width: 36.0rem;
+        width: 30.0rem;
     }
     a.button-bd {
         font-size: 1.25rem;
@@ -529,6 +551,9 @@ a.button-bd.dead:hover {
 }
 
 @media (min-width:1200px) {
+    div.chat label input, div.chat label textarea {
+        width: 36.0rem;
+    }
     a.button-bd {
         font-size: 1.5rem;
     }
@@ -639,24 +664,28 @@ div.wolvie img {
 }
 
 /*** order comics ***/
-select.order-comics-quantity {
-    font-size: 1.125rem;
-    width: 10.0rem;
+select.order-comics, input.order-comics {
+    font-size: 1.25rem;
+    width: 5.0rem;
+}
+input#Coffee {
+    height: 2.0rem;
+    width: 2.0rem;
 }
 .order-comics-locale {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
     width: 20.0rem;
     min-height: 2.5rem;
 }
 @media (min-width:576px) {
     .order-comics-locale {
-        width: 24.0rem;
+        width: 22.0rem;
     }
 }
 
 @media (min-width:767px) {
     .order-comics-locale {
-        width: 12.0rem;
+        width: 10.0rem;
     }
 }
 img.polybag-mt {
@@ -665,7 +694,7 @@ img.polybag-mt {
 }
 @media (min-width:1200px) {
     .order-comics-locale {
-        width: 10.875rem;
+        width: 13.75rem;
     }
     img.polybag-mt {
         margin-top: -2.5rem;
@@ -673,8 +702,8 @@ img.polybag-mt {
 }
 
 form#fs-frm {
-    background: #f2f2f2;
-    border: 0.0625rem solid #bbb;
+    background: #f1f9fe;
+    border: 0.0625rem solid #c6e5fa;
     border-radius: 0.25rem;
     padding: 1.5rem;
 }

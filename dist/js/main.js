@@ -1,5 +1,5 @@
 /* main.js */
-
+"use strict";
 console.log('init');
 
 //Set var defined
@@ -63,5 +63,48 @@ if (bodySet != '') {
     }
     else if (bodySet == 'nature') {
     paginaTor(bodySet,currPageCount,3);
+    }
+    else if (bodySet == 'comics') {
+        /* comic order form */
+        const PrintIssue = document.getElementById('print-issue');
+        const StickerPack = document.getElementById('sticker-pack');
+        const Coffee = document.getElementById('Coffee');
+        const Shipping = document.getElementById('Shipping');
+        const Total = document.getElementById('Total');
+
+        let ShippingVal = '$0';
+        let TotalVal = '$0';
+
+        const FormVals = () => {
+            Shipping.value = ShippingVal;
+            Total.value = TotalVal;
+        }
+
+        FormVals();
+
+        const CalculateChanges = () => {
+            /* field vals */
+            const coffeeVal = Coffee.checked ? 5 : 0;
+            const newShipping = StickerPack.value + PrintIssue.value > 0 ? 1.99 : 0;
+            const PrintMulti = PrintIssue.value * 5;
+            const StickerMulti = StickerPack.value * 5;
+            /* shipping */
+            const finalShipping = '$' + newShipping.toString();
+            Shipping.value = finalShipping;
+            /* total */
+            let finalTotal = coffeeVal + PrintMulti + StickerMulti + newShipping;
+            finalTotal = '$' + finalTotal.toString();
+            Total.value = finalTotal;
+        }
+
+        PrintIssue.addEventListener('change', () => {
+            CalculateChanges();
+        });
+        StickerPack.addEventListener('change', () => {
+            CalculateChanges();
+        });
+        Coffee.addEventListener('change', () => {
+            CalculateChanges();
+        });
     }
 }
