@@ -21,7 +21,7 @@ permalink: /order/
     <div class="chat">
     <h1>Order Complete</h1>
     <hr>
-    <p>Thank you very much for supporting <strong>Ice in the Shadows</strong>. Your order has been received and I&rsquo;ll contact you very soon with delivery details and payment options.</p>
+    <p>Thanks for supporting <strong>Ice in the Shadows</strong>. Your order has been received and I&rsquo;ll contact you very soon with delivery details and payment options.</p>
     <p><em>You are a wonderful person :)</em></p>
     <p class="mt-4">
       <img src="../images/v3/bob-sig-k.png" alt="Bob Dry" width="180" height="53" class="mt-1"><br />

@@ -21,8 +21,7 @@ permalink: /comics/
     <div class="chat">
     <h1>Comics!</h1>
     <hr>
-    <p>Show Wilson some love. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> the 
-    Kingdom family&rsquo;s journey back home.</p>
+    <p>Show the Kingdom family some love. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> my Web comic.</p>
     <hr class="mt-4">
     <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
