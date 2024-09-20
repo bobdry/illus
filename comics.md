@@ -124,7 +124,7 @@ permalink: /comics/
               <p class="lh-sm"><strong>Shipping and handling</strong></p>
           </div>
           <div class="col-3">
-              <input class="order-comics" type="text" id="Shipping" name="Shipping" value="" readonly>
+              <input class="order-comics" type="text" id="Shipping" name="Shipping" value="$0" readonly>
           </div>
       </div>
       <hr>
@@ -133,7 +133,7 @@ permalink: /comics/
               <p class="lh-sm"><strong>TOTAL</strong></p>
           </div>
           <div class="col-3">
-              <input class="order-comics" type="text" id="Total" name="Total" value="" readonly>
+              <input class="order-comics" type="text" id="Total" name="Total" value="$0" readonly>
           </div>
       </div>
       <hr>
@@ -219,7 +219,7 @@ permalink: /comics/
           </fieldset>
         </fieldset>
         <p class="mt-4 lh-sm"><small><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. All prices are in USD. For international orders and shipping please <a href="/contact/">submit a contact request</a> with location details.</small></p>
-        <button type="submit" class="mt-4"><strong>NEXT</strong></button>
+        <button id="iceSubmit" type="submit" class="mt-4"><strong>NEXT</strong></button>
         <p class="ms-4"><em>Step <strong>1</strong> of <strong>2</strong></em></p>
       </form>
     </div>

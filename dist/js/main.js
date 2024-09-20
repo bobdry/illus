@@ -72,15 +72,7 @@ if (bodySet != '') {
         const Shipping = document.getElementById('Shipping');
         const Total = document.getElementById('Total');
 
-        let ShippingVal = '$0';
-        let TotalVal = '$0';
-
-        const FormVals = () => {
-            Shipping.value = ShippingVal;
-            Total.value = TotalVal;
-        }
-
-        FormVals();
+        const iceSubmit = document.getElementById('iceSubmit');
 
         const CalculateChanges = () => {
             /* field vals */
@@ -105,6 +97,13 @@ if (bodySet != '') {
         });
         Coffee.addEventListener('change', () => {
             CalculateChanges();
+        });
+
+        iceSubmit.addEventListener("click", function (event) {
+            if (Total.value === '$0') {
+                alert('Please select an item for purchase.')
+                event.preventDefault();
+            }
         });
     }
 }
