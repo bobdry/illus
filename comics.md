@@ -21,11 +21,11 @@ permalink: /comics/
     <div class="chat">
     <h1>Comics!</h1>
     <hr>
-    <p>Show the Kingdom family some love. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> my Web comic.</p>
+    <p>Show some love for the Kingdom family. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> the series.</p>
     <hr class="mt-4">
     <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
-        <h3>Print issues</h3>
+        <h3>Issues</h3>
           <p>
             Signed and bagged issues of Ice in the Shadows <span style="font-size: 1.75rem;">#1</span> are now available. Yes, you can always read it for free on the Web, but the feel of the print issue is really nice. 
           </p>
@@ -218,7 +218,7 @@ permalink: /comics/
             </div>
           </fieldset>
         </fieldset>
-        <p class="mt-4 lh-sm"><small><strong>Note:</strong> A standard shipping cost of $1.99 is applied to all orders in the USA. All prices are in USD. For international orders and shipping please <a href="/contact/">submit a contact request</a> with location details.</small></p>
+        <p class="mt-4 lh-sm"><small><strong>Note:</strong> A standard shipping and handling cost of $1.99 is applied to all orders in the USA. All prices are in USD. For international orders and shipping please <a href="/contact/">submit a contact request</a> with location details.</small></p>
         <button id="iceSubmit" type="submit" class="mt-4"><strong>NEXT</strong></button>
         <p class="ms-4"><em>Step <strong>1</strong> of <strong>2</strong></em></p>
       </form>
