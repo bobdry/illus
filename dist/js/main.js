@@ -8,8 +8,10 @@ var bodySet = bodyClass[0].nodeValue;
 
 //Page number var defined
 var currPage = window.location.href;
-var currPageCount = currPage.replace(/\D/g, '');
-currPageCount = currPageCount[currPageCount.length -1];
+var splitUrl = currPage.split('/');
+var splitLength = splitUrl.length;
+var currPageCount = splitUrl[splitLength - 1].replace(/\D/g, '');
+// currPageCount = currPageCount[currPageCount.length - 1];
 
 var paginaTor = function(set,curr,tots) {
     //previous page
@@ -41,7 +43,7 @@ if (bodySet != '') {
         paginaTor(bodySet,currPageCount,4);
     }
     else if (bodySet == 'con') {
-        paginaTor(bodySet,currPageCount,8);
+        paginaTor(bodySet,currPageCount,12);
     }
     else if (bodySet == 'crown') {
         paginaTor(bodySet,currPageCount,4);
