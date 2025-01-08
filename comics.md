@@ -22,7 +22,7 @@ permalink: /comics/
     <h1>Comics!</h1>
     <hr>
     <p>Show some love for the Kingdom family. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> the series.</p>
-    <hr class="mt-4">
+    <hr class="mt-5 mb-4">
     <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
         <h3>Issues</h3>
@@ -39,7 +39,7 @@ permalink: /comics/
           <p><img src="/images/v3/ice/ice-print-issues.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
         </div>
     </div>
-    <hr class="mt-4">
+    <hr class="mt-5 mb-4">
     <div class="row">
         <div class="col-12 col-lg-6">
           <p><img src="/images/v3/ice/ice-sticker-packs.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
@@ -54,7 +54,7 @@ permalink: /comics/
           </p>
         </div>
     </div>
-    <hr class="mt-4">
+    <hr class="mt-5 mb-4">
       <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
           <h3>Coffee</h3>
@@ -69,14 +69,15 @@ permalink: /comics/
           <p><img src="/images/v3/ice/ice-coffee.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
         </div>
       </div>
-    <hr class="mt-4">
+    <div id="three-pack"></div>
+    <hr class="mt-5 mb-4">
     <div class="row">
         <div class="col-12 col-lg-6">
           <p><img src="/images/v3/5-Steps-Away-pack.jpg" class="img-fluid comic-rad" width="790" height="900"></p>
         </div>
         <div class="col-12 col-lg-6">
           <h3>5 Steps Away</h3>
-          <p>Follow the adventures of Joe and Luis as they work to alleviate our reality. Sold as a 3 pack, issues #3, #2 and #1.</p>
+          <p>My other series follows the adventures of Joe and Luis as they work to alter our reality. Sold as a three pack, signed and bagged issues #3, #2, #1.</p>
           <p>
             <a href="#order-form" class="order-form-drops">Order
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
@@ -86,7 +87,7 @@ permalink: /comics/
     </div>
       <!-- order form -->
       <hr class="mt-5" id="order-form">
-      <h2 class="mt-5 pt-3">Ice in the Shadows Order Form</h2>
+      <h2 class="mt-5 pt-3">Order Form</h2>
       <form class="mb-4" id="fs-frm" name="ice-order-form" accept-charset="utf-8" action="https://formspree.io/f/meqyewwd" method="post">
       <div class="row">
         <div class="col-12">
@@ -131,7 +132,7 @@ permalink: /comics/
               <input type="checkbox" id="Coffee" name="Coffee" value="Coffee">
             </div>
             <div class="col-9">
-              <p class="lh-sm"><strong>5 Steps Away #3, #2 and #1 issue pack</strong><br>
+              <p class="lh-sm"><strong>5 Steps Away #3, #2, #1 issue pack</strong><br>
               <small>$11.97 per pack</small></p>
             </div>
             <div class="col-3">
