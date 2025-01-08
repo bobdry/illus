@@ -27,7 +27,7 @@ permalink: /comics/
         <div class="col-12 col-lg-6 order-last order-lg-first">
         <h3>Issues</h3>
           <p>
-            Signed and bagged issues of Ice in the Shadows <span style="font-size: 1.75rem;">#1</span> are now available. Yes, you can always read it for free on the Web, but the feel of the print issue is really nice. 
+            Signed and bagged issues of Ice in the Shadows <span style="font-size: 1.75rem;">#1</span> are now available. Yes, you can always read it on the Web for free, but the feel of the print issue is really nice. 
           </p>
           <p>
             <a href="#order-form" class="order-form-drops">Order
@@ -69,6 +69,21 @@ permalink: /comics/
           <p><img src="/images/v3/ice/ice-coffee.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
         </div>
       </div>
+    <hr class="mt-4">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+          <p><img src="/images/v3/5-Steps-Away-pack.jpg" class="img-fluid comic-rad" width="790" height="900"></p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <h3>5 Steps Away</h3>
+          <p>Follow the adventures of Joe and Luis as they work to alleviate our reality. Sold as a 3 pack, issues #3, #2 and #1.</p>
+          <p>
+            <a href="#order-form" class="order-form-drops">Order
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
+            </a>
+          </p>
+        </div>
+    </div>
       <!-- order form -->
       <hr class="mt-5" id="order-form">
       <h2 class="mt-5 pt-3">Ice in the Shadows Order Form</h2>
@@ -114,6 +129,19 @@ permalink: /comics/
             </div>
             <div class="col-3">
               <input type="checkbox" id="Coffee" name="Coffee" value="Coffee">
+            </div>
+            <div class="col-9">
+              <p class="lh-sm"><strong>5 Steps Away #3, #2 and #1 issue pack</strong><br>
+              <small>$11.97 per pack</small></p>
+            </div>
+            <div class="col-3">
+              <select class="order-comics" id="5-steps-away-pack" name="5-steps-away-pack" required>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4 - pack max</option>
+              </select>
             </div>
           </div>
         </div>

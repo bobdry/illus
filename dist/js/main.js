@@ -71,6 +71,7 @@ if (bodySet != '') {
         const PrintIssue = document.getElementById('print-issue');
         const StickerPack = document.getElementById('sticker-pack');
         const Coffee = document.getElementById('Coffee');
+        const ThreePack = document.getElementById('5-steps-away-pack');
         const Shipping = document.getElementById('Shipping');
         const Total = document.getElementById('Total');
 
@@ -79,15 +80,17 @@ if (bodySet != '') {
         const CalculateChanges = () => {
             /* field vals */
             const coffeeVal = Coffee.checked ? 5 : 0;
-            const newShipping = StickerPack.value + PrintIssue.value > 0 ? 1.99 : 0;
+            const newShipping = StickerPack.value + PrintIssue.value + ThreePack.value > 0 ? 1.99 : 0;
             const PrintMulti = PrintIssue.value * 5;
             const StickerMulti = StickerPack.value * 5;
+            const ThreePackMulti = ThreePack.value * 11.97;
             /* shipping */
             const finalShipping = '$' + newShipping.toString();
             Shipping.value = finalShipping;
             /* total */
-            let finalTotal = coffeeVal + PrintMulti + StickerMulti + newShipping;
-            finalTotal = '$' + finalTotal.toString();
+            let finalTotal = coffeeVal + PrintMulti + StickerMulti + ThreePackMulti + newShipping;
+            // finalTotal = num.toFixed(2);
+            finalTotal = '$' + finalTotal.toFixed(2).toString();
             Total.value = finalTotal;
         }
 
@@ -98,6 +101,9 @@ if (bodySet != '') {
             CalculateChanges();
         });
         Coffee.addEventListener('change', () => {
+            CalculateChanges();
+        });
+        ThreePack.addEventListener('change', () => {
             CalculateChanges();
         });
 
