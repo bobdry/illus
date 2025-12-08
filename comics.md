@@ -36,7 +36,7 @@ permalink: /comics/
           </p>
         </div>
         <div class="col-12 col-lg-6">
-          <p><img src="/images/v3/ice/ice-stack.jpg" class="img-fluid comic-rad" width="900" height="1200"></p>
+          <p><img src="/images/v3/ice-stack.jpg" class="img-fluid comic-rad" width="900" height="1200"></p>
         </div>
     </div>
     <hr class="mt-5 mb-4">
@@ -72,10 +72,10 @@ permalink: /comics/
     <div id="three-pack"></div>
     <hr class="mt-5 mb-4">
     <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-8">
           <p><img src="/images/v3/five-stack.jpg" class="img-fluid comic-rad" width="1200" height="900"></p>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-4">
           <h3>5 Steps Away</h3>
           <p>My other series follows the adventures of Joe and Luis as they endeavor to alter reality. Sold as a three pack, signed and bagged issues #3, #2, #1.</p>
           <p>
