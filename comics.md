@@ -36,7 +36,7 @@ permalink: /comics/
           </p>
         </div>
         <div class="col-12 col-lg-6">
-          <p><img src="/images/v3/ice/ice-print-issues.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
+          <p><img src="/images/v3/ice/ice-stack.jpg" class="img-fluid comic-rad" width="900" height="1200"></p>
         </div>
     </div>
     <hr class="mt-5 mb-4">
@@ -73,7 +73,7 @@ permalink: /comics/
     <hr class="mt-5 mb-4">
     <div class="row">
         <div class="col-12 col-lg-6">
-          <p><img src="/images/v3/5-Steps-Away-pack.jpg" class="img-fluid comic-rad" width="790" height="900"></p>
+          <p><img src="/images/v3/five-stack.jpg" class="img-fluid comic-rad" width="1200" height="900"></p>
         </div>
         <div class="col-12 col-lg-6">
           <h3>5 Steps Away</h3>
