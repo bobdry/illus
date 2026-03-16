@@ -22,8 +22,8 @@ permalink: /comics/
     <h1>Comics!</h1>
     <hr>
     <p>Show some love for the Kingdom family. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> the series.</p>
-    <hr class="mt-5 mb-4">
-    <div class="row">
+    <hr class="mt-5 mb-4 d-none">
+    <div class="row d-none">
         <div class="col-12 col-lg-6 order-last order-lg-first">
         <h3>Issues</h3>
           <p>
@@ -39,7 +39,7 @@ permalink: /comics/
           <p><img src="/images/v3/ice-stack.jpg" class="img-fluid comic-rad" width="900" height="1200"></p>
         </div>
     </div>
-    <hr class="mt-5 mb-4">
+    <hr class="mb-4">
     <div class="row">
         <div class="col-12 col-lg-6">
           <p><img src="/images/v3/ice/ice-sticker-packs.jpg" class="img-fluid comic-rad" width="700" height="700"></p>
@@ -54,7 +54,7 @@ permalink: /comics/
           </p>
         </div>
     </div>
-    <hr class="mt-5 mb-4">
+    <hr class="mt-4 mb-4">
       <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
           <h3>Coffee</h3>
@@ -70,7 +70,7 @@ permalink: /comics/
         </div>
       </div>
     <div id="three-pack"></div>
-    <hr class="mt-5 mb-4">
+    <hr class="mt-4 mb-4">
     <div class="row">
         <div class="col-12 col-lg-8">
           <p><img src="/images/v3/five-stack.jpg" class="img-fluid comic-rad" width="1200" height="900"></p>
@@ -86,7 +86,7 @@ permalink: /comics/
         </div>
     </div>
       <!-- order form -->
-      <hr class="mt-5" id="order-form">
+      <hr class="mt-4" id="order-form">
       <h2 class="mt-5 pt-3">Order Form</h2>
       <form class="mb-4" id="fs-frm" name="ice-order-form" accept-charset="utf-8" action="https://formspree.io/f/meqyewwd" method="post">
       <div class="row">
@@ -98,11 +98,11 @@ permalink: /comics/
             <div class="col-3">
               <p class="mb-1"><em>Quantity</em></p>
             </div>
-            <div class="col-9">
+            <div class="col-9 d-none">
               <p class="lh-sm"><strong>Ice in the Shadows #1 print issue</strong><br>
               <small>$5 per issue</small></p>
             </div>
-            <div class="col-3">
+            <div class="col-3 d-none">
               <select class="order-comics" id="print-issue" name="print-issue" required>
                   <option value="0">0</option>
                   <option value="1">1</option>
