@@ -22,12 +22,12 @@ permalink: /comics/
     <h1>Comics!</h1>
     <hr>
     <p>Show some love for the Kingdom family. Support <strong>Ice in the Shadows</strong> with the options below. Thanks for reading <em>and supporting</em> the series.</p>
-    <hr class="mt-5 mb-4 d-none">
-    <div class="row d-none">
+    <hr class="mt-5 mb-4">
+    <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
         <h3>Issues</h3>
           <p>
-            Signed and bagged issues of Ice in the Shadows <span style="font-size: 1.75rem;">#1</span> are now available. Yes, you can always read it on the Web for free, but the feel of the print issue is really nice. 
+            Signed and bagged issues of Ice in the Shadows <span style="font-size: 1.75rem;">#1</span> are now available. Yes, you can always read it for free on the Web, but the feel of the print issue is really nice. 
           </p>
           <p>
             <a href="#order-form" class="order-form-drops">Order
@@ -98,11 +98,11 @@ permalink: /comics/
             <div class="col-3">
               <p class="mb-1"><em>Quantity</em></p>
             </div>
-            <div class="col-9 d-none">
+            <div class="col-9">
               <p class="lh-sm"><strong>Ice in the Shadows #1 print issue</strong><br>
               <small>$5 per issue</small></p>
             </div>
-            <div class="col-3 d-none">
+            <div class="col-3">
               <select class="order-comics" id="print-issue" name="print-issue" required>
                   <option value="0">0</option>
                   <option value="1">1</option>
