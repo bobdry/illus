@@ -46,7 +46,7 @@ permalink: /comics/
         </div>
         <div class="col-12 col-lg-6">
           <h3>Sticker packs</h3>
-          <p>For your latop or maybe the inside of your mini van, Ice in the Shadows stickers come in packs of five.</p>
+          <p>For your latop or maybe the inside of your mini van, Ice in the Shadows stickers sold in packs of five.</p>
           <p>
             <a href="#order-form" class="order-form-drops">Order
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
@@ -58,7 +58,7 @@ permalink: /comics/
       <div class="row">
         <div class="col-12 col-lg-6 order-last order-lg-first">
           <h3>Coffee</h3>
-          <p>Maybe physical merchandise isn&rsquo;t your thing. Buy me a cup of coffee instead.</p>
+          <p>Maybe physical merchandise isn&rsquo;t your thing. Buy me a cup of coffee please.</p>
           <p>
             <a href="#order-form" class="order-form-drops">Order
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z"/></svg>
